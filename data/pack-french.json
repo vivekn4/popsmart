@@ -1,0 +1,344 @@
+{
+  "id": "french",
+  "title": "French",
+  "icon": "chat",
+  "color": "#B565D8",
+  "levels": [
+    {
+      "id": "french-1",
+      "title": "Greetings & pronunciation",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Bonjour opens every door",
+          "body": "In France, bonjour is not just hello, it is good manners. You say it entering a shop, greeting a neighbor, starting any conversation. Skip it and people notice. Salut is the casual version, strictly for friends and people your age."
+        },
+        {
+          "type": "text",
+          "title": "The sounds that trip everyone up",
+          "body": "French has nasal vowels: in bon, the n is not really pronounced, the vowel just hums through your nose. Final consonants usually go silent, so parlent sounds like parl. And the French r comes from the throat, like a soft gargle, not the English tongue-tip roll."
+        },
+        {
+          "type": "tip",
+          "body": "Bonsoir after dark, bonne nuit only at bedtime. Bonsoir means good evening and you use it from around 6pm. Bonne nuit is strictly good night, said when someone is actually going to sleep. Mixing them up marks you as a beginner instantly."
+        },
+        {
+          "type": "example",
+          "body": "Marie: Salut! Ça va? (Hi! How's it going?)\nLuc: Ça va bien, merci. Et toi? (Good, thanks. And you?)\nMarie: Très bien! Au revoir! (Great! Goodbye!)\n\nÇa va is the workhorse phrase of French small talk. It means how's it going, and the expected answer is just ça va, fine."
+        },
+        {
+          "type": "check",
+          "q": "It's 8pm and you walk into a bakery. What do you say?",
+          "choices": [
+            "Bonsoir!",
+            "Bonne nuit!",
+            "Salut mec!"
+          ],
+          "answer": 0,
+          "explain": "Bonsoir is good evening, correct after dark. Bonne nuit is only for bedtime. Salut is too casual for a shopkeeper you don't know."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What does 'bonjour' literally break down to?",
+          "back": "'Good day' — bon (good) + jour (day). It's a wish, not just a word."
+        },
+        {
+          "type": "flash",
+          "front": "How do you say 'good evening' in French?",
+          "back": "Bonsoir. Used from evening until bedtime."
+        },
+        {
+          "type": "flash",
+          "front": "What does 'merci beaucoup' mean?",
+          "back": "'Thanks a lot' — merci (thanks) + beaucoup (a lot)."
+        },
+        {
+          "type": "flash",
+          "front": "How do you say 'goodbye' in French?",
+          "back": "Au revoir — literally 'until seeing again.'"
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Which greeting fits a shopkeeper you have never met?",
+            "choices": [
+              "Salut!",
+              "Bonjour!",
+              "Coucou!"
+            ],
+            "answer": 1,
+            "explain": "Bonjour is the polite default for strangers. Salut and coucou are for friends."
+          },
+          {
+            "q": "In the word 'parlent' (they speak), what happens to the final -ent?",
+            "choices": [
+              "It goes silent",
+              "It rhymes with 'went'",
+              "It becomes a z sound"
+            ],
+            "answer": 0,
+            "explain": "Final consonants in French usually go silent. Parlent is pronounced 'parl.'"
+          },
+          {
+            "q": "What makes the French r different from the English r?",
+            "choices": [
+              "It's made in the throat",
+              "It's rolled with the tongue tip",
+              "It's silent"
+            ],
+            "answer": 0,
+            "explain": "The French r is guttural, from the back of the throat. The rolled tongue-tip r is Spanish or Italian."
+          },
+          {
+            "q": "When do you say 'bonne nuit'?",
+            "choices": [
+              "Any time after 6pm",
+              "Only when someone is going to sleep",
+              "As a morning greeting"
+            ],
+            "answer": 1,
+            "explain": "Bonne nuit is strictly bedtime. For the evening, it's bonsoir."
+          },
+          {
+            "q": "What does 's'il vous plaît' mean?",
+            "choices": [
+              "Please (formal)",
+              "Thank you very much",
+              "Excuse me"
+            ],
+            "answer": 0,
+            "explain": "It literally means 'if it pleases you' — the formal way to say please. The casual version is s'il te plaît."
+          }
+        ]
+      }
+    },
+    {
+      "id": "french-2",
+      "title": "Essential verbs",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Être: the verb that is everything",
+          "body": "Être means to be, and you cannot say almost anything without it. Je suis (I am), tu es (you are), il/elle est (he/she is), nous sommes (we are), vous êtes (you are, formal/plural), ils/elles sont (they are). Drill these six until they are automatic."
+        },
+        {
+          "type": "text",
+          "title": "Avoir: to have, and to be hungry",
+          "body": "Avoir means to have: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. But French uses avoir where English uses be: j'ai faim is literally 'I have hunger' — I am hungry. Same for j'ai soif (I am thirsty) and j'ai 20 ans (I am 20 years old)."
+        },
+        {
+          "type": "tip",
+          "body": "Aller gives you the future for free. Aller means to go: je vais, tu vas, il va. Put it before any infinitive and you get the near future: je vais manger = I am going to eat. Learn one verb, unlock talking about tomorrow."
+        },
+        {
+          "type": "example",
+          "body": "Je m'appelle Zoe. J'ai 25 ans. Je suis canadienne.\n(My name is Zoe. I am 25. I am Canadian.)\n\nThree verbs, one introduction: s'appeler (to be called), avoir for age, être for nationality. This exact pattern opens every first conversation."
+        },
+        {
+          "type": "check",
+          "q": "How do you say 'I am hungry' in French?",
+          "choices": [
+            "J'ai faim",
+            "Je suis faim",
+            "Je faim"
+          ],
+          "answer": 0,
+          "explain": "French uses avoir for hunger: j'ai faim, literally 'I have hunger.' Je suis faim applies English logic to French and it doesn't work."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "Conjugate être (to be) in the present tense.",
+          "back": "je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont"
+        },
+        {
+          "type": "flash",
+          "front": "Conjugate avoir (to have) in the present tense.",
+          "back": "j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont"
+        },
+        {
+          "type": "flash",
+          "front": "How do you say 'I am 20 years old' in French?",
+          "back": "J'ai 20 ans — French uses 'have' for age, not 'be.'"
+        },
+        {
+          "type": "flash",
+          "front": "What does 'je vais manger' mean?",
+          "back": "'I am going to eat' — aller + infinitive makes the near future."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Which verb means 'to be'?",
+            "choices": [
+              "Avoir",
+              "Être",
+              "Aller"
+            ],
+            "answer": 1,
+            "explain": "Être = to be. Avoir = to have. Aller = to go."
+          },
+          {
+            "q": "'Nous ___ contents.' (We are happy.) Which form fits?",
+            "choices": [
+              "sommes",
+              "êtes",
+              "sont"
+            ],
+            "answer": 0,
+            "explain": "Nous takes sommes. Êtes pairs with vous, sont with ils/elles."
+          },
+          {
+            "q": "Why does French say 'j'ai faim' instead of 'je suis faim'?",
+            "choices": [
+              "French uses avoir for hunger, thirst, and age",
+              "It's a regional slang version",
+              "Both are equally correct"
+            ],
+            "answer": 0,
+            "explain": "Hunger, thirst, and age all use avoir in French: j'ai faim, j'ai soif, j'ai 30 ans."
+          },
+          {
+            "q": "What does 'ils vont' mean?",
+            "choices": [
+              "They go / they are going",
+              "They have",
+              "They are"
+            ],
+            "answer": 0,
+            "explain": "Vont is the ils/elles form of aller (to go)."
+          },
+          {
+            "q": "How do you say 'we have' in French?",
+            "choices": [
+              "Nous avons",
+              "Nous sommes",
+              "Nous allons"
+            ],
+            "answer": 0,
+            "explain": "Avons is the nous form of avoir. Sommes = are, allons = go."
+          }
+        ]
+      }
+    },
+    {
+      "id": "french-3",
+      "title": "Food & travel phrases",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Ordering like you mean it",
+          "body": "Je voudrais... means I would like — the magic phrase for restaurants. Je voudrais un café, s'il vous plaît. Le menu, s'il vous plaît gets you the menu. And when you're done, l'addition, s'il vous plaît brings the bill. Never click your fingers or shout; a calm s'il vous plaît works everywhere."
+        },
+        {
+          "type": "text",
+          "title": "Finding your way",
+          "body": "Où est...? (Where is...?) plus a noun solves most navigation: Où est la gare? (the train station), Où est l'aéroport? (the airport), Où sont les toilettes? (the toilets). Add à gauche (left), à droite (right), tout droit (straight ahead) and you can follow any local's directions."
+        },
+        {
+          "type": "tip",
+          "body": "Parlez-vous anglais? buys you goodwill. Asking 'do you speak English?' in French before switching to English shows respect, and locals help far more willingly. Follow it with lentement, s'il vous plaît (slowly, please) if they're racing ahead."
+        },
+        {
+          "type": "example",
+          "body": "Serveur: Bonsoir! Vous avez choisi? (Did you decide?)\nVous: Oui. Je voudrais le poulet, s'il vous plaît. (Yes. I'd like the chicken, please.)\nServeur: Et comme boisson? (And to drink?)\nVous: Un verre d'eau, merci. (A glass of water, thanks.)\n\nPolite, complete, no panic. This script handles 90% of restaurant visits."
+        },
+        {
+          "type": "check",
+          "q": "You want the bill at a Paris café. What do you say?",
+          "choices": [
+            "L'addition, s'il vous plaît",
+            "Le menu, s'il vous plaît",
+            "Ça va?"
+          ],
+          "answer": 0,
+          "explain": "L'addition is the bill. Le menu would bring you another menu, and ça va asks how things are."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "How do you say 'I would like...' in French?",
+          "back": "Je voudrais... — the key phrase for ordering."
+        },
+        {
+          "type": "flash",
+          "front": "What does 'où est la gare?' mean?",
+          "back": "'Where is the train station?' — où est = where is."
+        },
+        {
+          "type": "flash",
+          "front": "How do you ask 'how much does it cost?'",
+          "back": "Combien ça coûte?"
+        },
+        {
+          "type": "flash",
+          "front": "What does 'l'addition, s'il vous plaît' get you?",
+          "back": "The bill, politely — l'addition is the check."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What does 'je voudrais un café' mean?",
+            "choices": [
+              "I would like a coffee",
+              "I made a coffee",
+              "Coffee is ready"
+            ],
+            "answer": 0,
+            "explain": "Je voudrais = I would like. It's the polite conditional form of vouloir."
+          },
+          {
+            "q": "Someone says 'à droite'. Which way do you go?",
+            "choices": [
+              "Right",
+              "Left",
+              "Straight"
+            ],
+            "answer": 0,
+            "explain": "À droite = right, à gauche = left, tout droit = straight ahead."
+          },
+          {
+            "q": "Why start with 'parlez-vous anglais?' instead of just speaking English?",
+            "choices": [
+              "It shows respect and gets better help",
+              "It's legally required",
+              "English is banned in shops"
+            ],
+            "answer": 0,
+            "explain": "Asking in French first signals respect. People are far more willing to help."
+          },
+          {
+            "q": "What is 'le fromage'?",
+            "choices": [
+              "Cheese",
+              "Bread",
+              "Wine"
+            ],
+            "answer": 0,
+            "explain": "Fromage = cheese. Pain = bread, vin = wine — the holy trinity of French food."
+          },
+          {
+            "q": "How do you say 'where are the toilets?'",
+            "choices": [
+              "Où sont les toilettes?",
+              "Où est le menu?",
+              "Combien ça coûte?"
+            ],
+            "answer": 0,
+            "explain": "Où sont = where are (plural). Les toilettes = the toilets."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": "speak",
+  "title": "Public Speaking",
+  "icon": "mic",
+  "color": "#2980B9",
+  "levels": [
+    {
+      "id": "speak-1",
+      "title": "Beating nerves",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Nerves mean you care",
+          "body": "Shaky hands, dry mouth, racing heart before speaking — that's adrenaline, the same chemical athletes use to perform. It means your body is gearing up, not breaking down. Every experienced speaker still feels it; they've just learned to surf it."
+        },
+        {
+          "type": "text",
+          "title": "Box breathing, 60 seconds",
+          "body": "Breathe in 4 counts, hold 4, out 4, hold 4. Repeat three or four rounds before you go on. Slow exhales directly dial down your nervous system — it's the fastest physiological calm-down switch you own, and nobody can see you doing it."
+        },
+        {
+          "type": "tip",
+          "body": "Reframe the feeling: tell yourself 'I'm excited' instead of 'I'm nervous.' Studies show this tiny relabeling improves performance, because excitement and anxiety feel identical in the body — only the story differs."
+        },
+        {
+          "type": "example",
+          "body": "You're waiting to present in class. Instead of scrolling your phone (which spikes anxiety), you do two rounds of box breathing backstage, roll your shoulders, and whisper your first sentence once. By the time your name is called, the adrenaline has a job instead of a panic."
+        },
+        {
+          "type": "text",
+          "title": "Preparation is the real cure",
+          "body": "Most stage fright is fear of blanking. The antidote is over-preparing your opening 60 seconds — know it cold. A strong start floods you with confidence, and confidence carries the rest. Winging it is what creates the horror stories."
+        },
+        {
+          "type": "check",
+          "q": "What's the fastest way to calm your body before speaking?",
+          "choices": [
+            "Slow breathing with long exhales",
+            "Drinking three espressos",
+            "Telling yourself to 'just relax'"
+          ],
+          "answer": 0,
+          "explain": "Slow exhales activate the parasympathetic nervous system — a real physiological brake. Caffeine adds fuel to the fire, and 'just relax' is not a technique."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is box breathing?",
+          "back": "In 4 counts, hold 4, out 4, hold 4 — repeat to calm nerves fast."
+        },
+        {
+          "type": "flash",
+          "front": "Why does 'I'm excited' work better than 'I'm nervous'?",
+          "back": "Excitement and anxiety feel identical physically; relabeling turns the same energy positive."
+        },
+        {
+          "type": "flash",
+          "front": "What's the best cure for fear of blanking?",
+          "back": "Over-prepare the opening 60 seconds until it's automatic."
+        },
+        {
+          "type": "flash",
+          "front": "Why do nerves actually happen?",
+          "back": "Adrenaline — your body's performance fuel, not a malfunction."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why do experienced speakers still get nervous?",
+            "choices": [
+              "Adrenaline fires for everyone; they just manage it",
+              "They never actually get nervous",
+              "They forgot their training"
+            ],
+            "answer": 0,
+            "explain": "The physiology doesn't vanish with experience. Pros feel the same rush and channel it instead of fighting it."
+          },
+          {
+            "q": "Box breathing works mainly through...",
+            "choices": [
+              "Long, slow exhales calming the nervous system",
+              "Holding your breath as long as possible",
+              "Breathing as fast as you can"
+            ],
+            "answer": 0,
+            "explain": "Extended exhales stimulate the vagus nerve and dial down fight-or-flight. Speed-breathing does the opposite."
+          },
+          {
+            "q": "Best use of the 5 minutes before you speak?",
+            "choices": [
+              "Breathing exercises and rehearsing your opener",
+              "Scrolling social media",
+              "Memorizing the entire talk word-for-word"
+            ],
+            "answer": 0,
+            "explain": "Calm the body, lock in the start. Phones spike anxiety; full-script memorization creates brittle, robotic delivery."
+          },
+          {
+            "q": "Reframing anxiety as excitement helps because...",
+            "choices": [
+              "The bodily sensations are identical — only the label changes",
+              "Excitement eliminates adrenaline",
+              "Audiences prefer excited speakers"
+            ],
+            "answer": 0,
+            "explain": "Same racing heart, different story. 'I'm excited' gives the arousal a positive direction instead of a threat narrative."
+          },
+          {
+            "q": "The single biggest reducer of stage fright is...",
+            "choices": [
+              "Knowing your opening cold",
+              "Wearing lucky clothes",
+              "Picturing the audience naked"
+            ],
+            "answer": 0,
+            "explain": "Blanking on the start is the core fear. An automatic opening buys you 60 seconds of confidence to settle in."
+          }
+        ]
+      }
+    },
+    {
+      "id": "speak-2",
+      "title": "Structure",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Hook, body, close",
+          "body": "Every good talk has three parts: a hook that earns attention in the first 30 seconds, a body that delivers 2-3 clear points, and a close that tells people what to do or remember. Audiences forgive weak middles; they never forgive weak openings or endings."
+        },
+        {
+          "type": "text",
+          "title": "The rule of three",
+          "body": "People remember things in threes: three reasons, three stories, three steps. Two feels thin, four gets forgotten. 'Life, liberty, and the pursuit of happiness' stuck for 250 years because three is the brain's favorite number."
+        },
+        {
+          "type": "tip",
+          "body": "Stories beat statistics. One vivid 30-second story about a real person lands harder than five slides of numbers. Data convinces the mind; stories move the feet."
+        },
+        {
+          "type": "example",
+          "body": "A 3-minute class presentation: Hook — 'Last year, our school threw away 2 tons of food.' Body — three points: where it goes, what it costs, one fix that works. Close — 'Sign the compost petition on your way out.' Thirty seconds, three points, one ask."
+        },
+        {
+          "type": "text",
+          "title": "Signpost as you go",
+          "body": "Tell them where you are: 'First... Second... Finally...' It sounds simple because it is — and audiences relax when they can see the map. Mystery structure only creates anxiety, not suspense."
+        },
+        {
+          "type": "check",
+          "q": "What should the first 30 seconds of a talk do?",
+          "choices": [
+            "Hook attention with something vivid",
+            "List your credentials",
+            "Apologize for being nervous"
+          ],
+          "answer": 0,
+          "explain": "Attention is earned immediately or lost. Credentials can wait, and apologies just spotlight the nerves you're trying to hide."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are the three parts of a talk?",
+          "back": "Hook (first 30s), body (2-3 points), close (one takeaway or ask)."
+        },
+        {
+          "type": "flash",
+          "front": "Why does the rule of three work?",
+          "back": "Three items are the most the brain comfortably holds — memorable without overload."
+        },
+        {
+          "type": "flash",
+          "front": "Stories vs statistics: which persuades more?",
+          "back": "Stories — data convinces minds, stories move people to act."
+        },
+        {
+          "type": "flash",
+          "front": "What does signposting do for an audience?",
+          "back": "Shows them the map ('first, second, finally') so they relax and follow."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why open with a hook instead of background?",
+            "choices": [
+              "Attention is won or lost in the first 30 seconds",
+              "Background is more important",
+              "Hooks are unprofessional"
+            ],
+            "answer": 0,
+            "explain": "You get one shot at attention. Background can come after they're listening."
+          },
+          {
+            "q": "A talk with five main points will likely...",
+            "choices": [
+              "Lose the audience — three is the memorable max",
+              "Be twice as persuasive",
+              "Take exactly five minutes"
+            ],
+            "answer": 0,
+            "explain": "Working memory caps out. Five points blur together; three stick."
+          },
+          {
+            "q": "Best way to make data persuasive?",
+            "choices": [
+              "Wrap it in a short human story",
+              "Add more decimal places",
+              "Read the spreadsheet aloud"
+            ],
+            "answer": 0,
+            "explain": "Stories give numbers meaning and emotion. Raw data rarely moves anyone."
+          },
+          {
+            "q": "Signposting ('first, second, finally') helps because...",
+            "choices": [
+              "Audiences relax when they see the structure",
+              "It fills time",
+              "It sounds academic"
+            ],
+            "answer": 0,
+            "explain": "A visible map reduces listener anxiety and makes points easier to track and recall."
+          },
+          {
+            "q": "The close of a talk should...",
+            "choices": [
+              "Give one clear takeaway or call to action",
+              "Introduce a brand-new topic",
+              "Summarize every detail"
+            ],
+            "answer": 0,
+            "explain": "Endings are remembered. One sharp takeaway beats a comprehensive recap nobody retains."
+          }
+        ]
+      }
+    },
+    {
+      "id": "speak-3",
+      "title": "Delivery",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Pace and the power of pause",
+          "body": "Most beginners sprint. Slow down to about 130 words per minute and pause after key lines — silence feels eternal to you and thoughtful to them. A two-second pause after your main point lets it land instead of evaporating."
+        },
+        {
+          "type": "text",
+          "title": "Eyes, not slides",
+          "body": "Talk to people, not your deck. Sweep the room, hold eye contact with one person per thought, then move on. If slides exist, they illustrate — you narrate. Reading slides aloud is the fastest way to lose a room."
+        },
+        {
+          "type": "tip",
+          "body": "Record yourself on your phone, once. You'll instantly hear the 'ums,' the rushing, the flat tone — things no amount of thinking reveals. One recording fixes more than ten pep talks."
+        },
+        {
+          "type": "example",
+          "body": "Deliver this line two ways: 'Our team cut wait times (pause two beats) by half.' The pause before 'by half' makes the number hit like a drum. Same words, no pause: 'our team cut wait times by half' — and the achievement slides right past everyone."
+        },
+        {
+          "type": "text",
+          "title": "Gestures from the heart",
+          "body": "Keep gestures above the waist and open — palms visible. Stillness is fine too; fidgeting (pen-clicking, pocket-jingling) is what distracts. Let your hands punctuate, not perform."
+        },
+        {
+          "type": "check",
+          "q": "Why pause after an important point?",
+          "choices": [
+            "It gives the audience time to absorb it",
+            "It shows you forgot your place",
+            "It makes the talk longer"
+          ],
+          "answer": 0,
+          "explain": "Silence after a key line signals weight and lets the idea land. Rushing past it tells the audience it wasn't important."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What speaking pace should you aim for?",
+          "back": "About 130 words per minute — slower than conversation."
+        },
+        {
+          "type": "flash",
+          "front": "How do you use eye contact well?",
+          "back": "One person per thought, then move on — sweep the room."
+        },
+        {
+          "type": "flash",
+          "front": "What's the fastest way to improve delivery?",
+          "back": "Record yourself once and listen for ums, rushing, and flat tone."
+        },
+        {
+          "type": "flash",
+          "front": "Where should gestures live?",
+          "back": "Above the waist, open palms — punctuating, not performing."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Beginners usually speak...",
+            "choices": [
+              "Too fast — slowing to ~130 wpm helps",
+              "Too slowly",
+              "At exactly the right pace"
+            ],
+            "answer": 0,
+            "explain": "Nerves accelerate delivery. Consciously slowing down is the most common and most fixable delivery flaw."
+          },
+          {
+            "q": "A pause after your main point works because...",
+            "choices": [
+              "Silence signals importance and lets it land",
+              "The audience needs a nap",
+              "It covers forgetting"
+            ],
+            "answer": 0,
+            "explain": "Strategic silence is punctuation. It frames the point as worth sitting with."
+          },
+          {
+            "q": "Slides should...",
+            "choices": [
+              "Illustrate while you narrate",
+              "Contain your full script",
+              "Be as text-heavy as possible"
+            ],
+            "answer": 0,
+            "explain": "You're the talk; slides are the backdrop. Reading them aloud duplicates and bores."
+          },
+          {
+            "q": "One phone recording helps more than pep talks because...",
+            "choices": [
+              "You hear your actual ums, pace, and tone",
+              "Phones have good microphones",
+              "It's fun"
+            ],
+            "answer": 0,
+            "explain": "Self-perception lies; recordings don't. One listen reveals every habit to fix."
+          },
+          {
+            "q": "Fidgeting hurts a talk because...",
+            "choices": [
+              "It distracts from your message",
+              "It shows high energy",
+              "Audiences don't notice"
+            ],
+            "answer": 0,
+            "explain": "Pen-clicking and pocket-jingling pull attention to the noise instead of the words. Stillness beats static."
+          }
+        ]
+      }
+    }
+  ]
+}

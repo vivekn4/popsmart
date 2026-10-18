@@ -1,0 +1,344 @@
+{
+  "id": "bio",
+  "title": "Biology",
+  "icon": "leaf",
+  "color": "#27AE60",
+  "levels": [
+    {
+      "id": "bio-1",
+      "title": "Cells",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The building blocks of life",
+          "body": "Every living thing \u2014 you, a mushroom, a redwood tree \u2014 is made of cells. Cell theory says three things: all living things are made of cells, the cell is the smallest unit of life, and all cells come from other cells. Nothing living is simpler than a cell."
+        },
+        {
+          "type": "text",
+          "title": "Tiny factories with departments",
+          "body": "A cell isn't an empty blob; it's packed with organelles, each with a job. The nucleus holds the DNA instructions, mitochondria turn food into energy, and ribosomes build proteins. Think of it as a factory where every department runs on a tight schedule."
+        },
+        {
+          "type": "tip",
+          "body": "Remember the mitochondria with one line: it's the powerhouse of the cell. Yes, it's a meme \u2014 and yes, it's still the easiest way to never forget it."
+        },
+        {
+          "type": "example",
+          "body": "Muscle cells are stuffed with mitochondria because muscles burn huge amounts of energy. Skin cells barely have any. The cell's equipment matches its job \u2014 form follows function, all the way down."
+        },
+        {
+          "type": "check",
+          "q": "Which organelle holds a cell's DNA instructions?",
+          "choices": [
+            "The nucleus",
+            "The ribosome",
+            "The cell membrane"
+          ],
+          "answer": 0,
+          "explain": "The nucleus is the control center \u2014 it stores DNA and decides what the cell does. Ribosomes build proteins, and the membrane is just the border."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are the three parts of cell theory?",
+          "back": "All living things are made of cells; the cell is the smallest unit of life; all cells come from pre-existing cells."
+        },
+        {
+          "type": "flash",
+          "front": "What do mitochondria do?",
+          "back": "Convert food molecules into usable energy (ATP) for the cell."
+        },
+        {
+          "type": "flash",
+          "front": "What is the job of ribosomes?",
+          "back": "Build proteins by reading genetic instructions."
+        },
+        {
+          "type": "flash",
+          "front": "What does the cell membrane do?",
+          "back": "Controls what enters and exits the cell \u2014 the border checkpoint."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "You look at pond water under a microscope and see tiny creatures moving. What does cell theory tell you?",
+            "choices": [
+              "They must be plants",
+              "They appeared out of nowhere",
+              "Each creature is made of at least one cell"
+            ],
+            "answer": 2,
+            "explain": "Cell theory says all living things are made of cells. Those moving specks are alive, so they're cellular \u2014 no exceptions."
+          },
+          {
+            "q": "A cell needs to release a burst of energy to divide. Which organelle does the heavy lifting?",
+            "choices": [
+              "The cell wall",
+              "The nucleus",
+              "The mitochondria"
+            ],
+            "answer": 2,
+            "explain": "Mitochondria convert food into energy. The nucleus stores instructions, and animal cells don't even have cell walls."
+          },
+          {
+            "q": "Proteins are being built inside a cell. Where is this happening?",
+            "choices": [
+              "Inside the nucleus",
+              "In the mitochondria",
+              "On ribosomes"
+            ],
+            "answer": 2,
+            "explain": "Ribosomes read genetic instructions and assemble proteins. The nucleus stores the instructions; the mitochondria supply energy."
+          },
+          {
+            "q": "Why do muscle cells contain far more mitochondria than skin cells?",
+            "choices": [
+              "Muscles burn much more energy",
+              "Skin cells don't need DNA",
+              "Muscles are larger cells"
+            ],
+            "answer": 0,
+            "explain": "A cell's equipment matches its job. Muscles contract constantly and need huge energy output, so they pack extra mitochondria."
+          },
+          {
+            "q": "A poison blocks everything from passing through cell membranes. What fails first?",
+            "choices": [
+              "Nothing \u2014 cells don't need the membrane",
+              "Energy production, then everything",
+              "Only cell division"
+            ],
+            "answer": 1,
+            "explain": "The membrane controls what enters and exits. Block it and nutrients stop coming in, waste stops going out, and the cell dies quickly."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bio-2",
+      "title": "Genetics basics",
+      "cards": [
+        {
+          "type": "text",
+          "title": "DNA: the instruction manual",
+          "body": "DNA is a long molecule shaped like a twisted ladder, and it carries the instructions for building and running you. It's organized into genes \u2014 each gene is a recipe for one protein, like eye color or blood type."
+        },
+        {
+          "type": "text",
+          "title": "Chromosomes: the filing system",
+          "body": "Your DNA is packed into 46 chromosomes (23 pairs), one set from each parent. Genes sit at specific spots on chromosomes, which is why siblings share traits but aren't identical \u2014 each child gets a shuffled mix."
+        },
+        {
+          "type": "tip",
+          "body": "Dominant vs recessive: a dominant gene shows up even with one copy (like brown eyes). A recessive gene needs two copies to show (like blue eyes). One dominant beats one recessive, every time."
+        },
+        {
+          "type": "example",
+          "body": "Two brown-eyed parents can have a blue-eyed child if both carry a hidden recessive blue-eye gene. Each parent passes one copy at random \u2014 get blue from both, and the recessive trait appears."
+        },
+        {
+          "type": "check",
+          "q": "A gene needs two copies to show up in a person. What kind of gene is it?",
+          "choices": [
+            "Mutated",
+            "Recessive",
+            "Dominant"
+          ],
+          "answer": 1,
+          "explain": "Recessive genes need two copies to be expressed. One dominant copy would override it."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is a gene?",
+          "back": "A section of DNA that carries instructions for one protein or trait."
+        },
+        {
+          "type": "flash",
+          "front": "How many chromosomes do humans have?",
+          "back": "46 \u2014 23 pairs, one set inherited from each parent."
+        },
+        {
+          "type": "flash",
+          "front": "What does dominant mean in genetics?",
+          "back": "A gene that shows its trait even when only one copy is present."
+        },
+        {
+          "type": "flash",
+          "front": "What is DNA's shape?",
+          "back": "A double helix \u2014 a twisted ladder of paired chemical bases."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "DNA, genes, and chromosomes \u2014 how do they relate?",
+            "choices": [
+              "They are three names for the same thing",
+              "Genes are DNA sections; chromosomes are DNA bundles",
+              "Chromosomes are made of protein only"
+            ],
+            "answer": 1,
+            "explain": "Genes are stretches of DNA, and chromosomes are tightly packed bundles of DNA. They're nested, not synonyms."
+          },
+          {
+            "q": "A child inherits one chromosome set from each parent. Why aren't siblings identical?",
+            "choices": [
+              "Each parent passes a randomly shuffled mix",
+              "Siblings share no DNA",
+              "Only the mother contributes genes"
+            ],
+            "answer": 0,
+            "explain": "The mix each parent passes is random, so siblings get different combinations \u2014 same ingredients, different recipe."
+          },
+          {
+            "q": "A dominant brown-eye gene (B) and recessive blue-eye gene (b). A person is Bb. What color eyes?",
+            "choices": [
+              "Brown",
+              "Green",
+              "Blue"
+            ],
+            "answer": 0,
+            "explain": "One dominant B is enough \u2014 it overrides the recessive b. Only bb shows blue."
+          },
+          {
+            "q": "Two Bb parents have a child. What's the chance the child is bb?",
+            "choices": [
+              "50%",
+              "0%",
+              "25%"
+            ],
+            "answer": 2,
+            "explain": "Each parent has a 50% chance of passing b. Both must pass b: 0.5 \u00d7 0.5 = 25%."
+          },
+          {
+            "q": "Where is DNA actually stored inside a cell?",
+            "choices": [
+              "Floating loose in the cytoplasm",
+              "Inside mitochondria only",
+              "In the nucleus, packed into chromosomes"
+            ],
+            "answer": 2,
+            "explain": "Nearly all DNA sits in the nucleus, organized into chromosomes. Mitochondria hold a tiny separate scrap."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bio-3",
+      "title": "Ecosystems",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Who eats whom",
+          "body": "An ecosystem is a community of living things plus their environment, linked by who eats whom. Producers (plants) capture sunlight, consumers (animals) eat producers or each other, and decomposers (fungi, bacteria) recycle everything dead back into nutrients."
+        },
+        {
+          "type": "text",
+          "title": "Energy flows one way",
+          "body": "Energy enters as sunlight and flows up the food chain \u2014 but only about 10% transfers at each step. The rest is lost as heat. That's why there are always more plants than herbivores, and more herbivores than top predators."
+        },
+        {
+          "type": "tip",
+          "body": "Follow the 10% rule to read any ecosystem: a forest can support thousands of rabbits but only a handful of hawks. Each level up needs roughly ten times the level below."
+        },
+        {
+          "type": "example",
+          "body": "Grass \u2192 rabbit \u2192 fox: an acre of grass feeds many rabbits, those rabbits feed a few foxes. Remove the grass and everything above collapses \u2014 energy can't be created, only passed along."
+        },
+        {
+          "type": "check",
+          "q": "A fungus breaks down a fallen log into nutrients. What role is it playing?",
+          "choices": [
+            "Decomposer",
+            "Producer",
+            "Consumer"
+          ],
+          "answer": 0,
+          "explain": "Decomposers recycle dead matter into nutrients plants can reuse. Without them, ecosystems would drown in dead stuff."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is a producer?",
+          "back": "An organism (usually a plant) that captures energy from sunlight to make food."
+        },
+        {
+          "type": "flash",
+          "front": "What do decomposers do?",
+          "back": "Break down dead organisms and recycle their nutrients back into the ecosystem."
+        },
+        {
+          "type": "flash",
+          "front": "What is the 10% rule?",
+          "back": "Only about 10% of energy transfers between food-chain levels; the rest is lost as heat."
+        },
+        {
+          "type": "flash",
+          "front": "Give an example of a food chain.",
+          "back": "Grass \u2192 rabbit \u2192 fox: producer \u2192 herbivore \u2192 carnivore."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "In a forest, which group is always the largest by mass?",
+            "choices": [
+              "Herbivores",
+              "Producers",
+              "Top predators"
+            ],
+            "answer": 1,
+            "explain": "Producers sit at the base and hold the most energy. The 10% rule means each level up is roughly ten times smaller."
+          },
+          {
+            "q": "All the decomposers in a forest suddenly vanish. What happens?",
+            "choices": [
+              "Plants grow faster",
+              "Nutrients stop recycling and the forest starves",
+              "Nothing changes"
+            ],
+            "answer": 1,
+            "explain": "Decomposers return nutrients to the soil. Without them, dead matter piles up and producers run out of raw materials."
+          },
+          {
+            "q": "A lake's algae (producers) double. What likely happens to the small fish that eat zooplankton?",
+            "choices": [
+              "Their population grows",
+              "They go extinct immediately",
+              "Nothing \u2014 fish don't need algae"
+            ],
+            "answer": 0,
+            "explain": "More producers support more zooplankton, which support more fish. Energy flows upward, so the base lifts everything."
+          },
+          {
+            "q": "Why can't an ecosystem support as many wolves as rabbits?",
+            "choices": [
+              "Rabbits reproduce slower",
+              "Wolves are producers",
+              "Wolves need far more rabbits than exist per wolf"
+            ],
+            "answer": 2,
+            "explain": "Each wolf needs many rabbits' worth of energy, and only 10% transfers per level. Top predators are always few."
+          },
+          {
+            "q": "A farmer removes all the wildflowers from a field's edges. Which group suffers first?",
+            "choices": [
+              "Decomposers only",
+              "Top predators directly",
+              "Pollinators, then everything they support"
+            ],
+            "answer": 2,
+            "explain": "Flowers feed pollinators; lose the base and the effects ripple upward through the food web."
+          }
+        ]
+      }
+    }
+  ]
+}

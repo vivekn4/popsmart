@@ -1,0 +1,344 @@
+{
+  "id": "history",
+  "title": "World History",
+  "icon": "scroll",
+  "color": "#8B5E3C",
+  "levels": [
+    {
+      "id": "history-1",
+      "title": "Ancient civilizations",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Writing started in Mesopotamia",
+          "body": "Around 3400 BCE, the Sumerians in Mesopotamia (modern Iraq) pressed reeds into clay to track grain and taxes. That bookkeeping became cuneiform, the first writing system. Cities, laws, and empires followed: writing let humans organize at a scale memory alone never could."
+        },
+        {
+          "type": "text",
+          "title": "Egypt, Greece, Rome: the greatest-hits tour",
+          "body": "Egypt raised the pyramids around 2560 BCE as tombs for pharaohs. Greece gave us democracy, philosophy, and the Olympics. Rome turned a republic into an empire spanning three continents, then split and fell in the west in 476 CE — the date that traditionally ends ancient history."
+        },
+        {
+          "type": "tip",
+          "body": "Anchor the timeline with three dates. 3400 BCE: writing appears. 2560 BCE: the Great Pyramid. 476 CE: Rome falls in the west. Everything ancient slots between or around these pegs."
+        },
+        {
+          "type": "example",
+          "body": "The Great Pyramid was built around 2560 BCE — about 4,500 years ago. Cleopatra lived closer in time to the Moon landing (1969) than to the pyramid's construction. Ancient history is far deeper than it feels."
+        },
+        {
+          "type": "check",
+          "q": "Why is 476 CE a landmark date?",
+          "choices": [
+            "The western Roman Empire fell",
+            "The pyramids were built",
+            "Writing was invented"
+          ],
+          "answer": 0,
+          "explain": "476 CE marks the fall of Rome in the west and the conventional end of ancient history."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "Where and when did writing first appear?",
+          "back": "Mesopotamia (Sumer), around 3400 BCE."
+        },
+        {
+          "type": "flash",
+          "front": "What were the Egyptian pyramids built as?",
+          "back": "Tombs for pharaohs."
+        },
+        {
+          "type": "flash",
+          "front": "Name two things ancient Greece gave the world.",
+          "back": "Democracy and philosophy (also the Olympics, geometry, theater)."
+        },
+        {
+          "type": "flash",
+          "front": "In what year did the western Roman Empire fall?",
+          "back": "476 CE."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What drove the invention of cuneiform?",
+            "choices": [
+              "Tracking grain and taxes",
+              "Writing poetry",
+              "Sending love letters"
+            ],
+            "answer": 0,
+            "explain": "It started as accounting — reed marks in clay recording goods before it became literature."
+          },
+          {
+            "q": "The Great Pyramid was built roughly:",
+            "choices": [
+              "4,500 years ago",
+              "1,000 years ago",
+              "10,000 years ago"
+            ],
+            "answer": 0,
+            "explain": "Around 2560 BCE. It's far older than most people guess."
+          },
+          {
+            "q": "Which civilization is credited with democracy?",
+            "choices": [
+              "Greece",
+              "Egypt",
+              "Mesopotamia"
+            ],
+            "answer": 0,
+            "explain": "Athens developed demokratia — rule by the people — in the 5th century BCE."
+          },
+          {
+            "q": "What happened in 476 CE?",
+            "choices": [
+              "The western Roman Empire fell",
+              "Julius Caesar was assassinated",
+              "Rome was founded"
+            ],
+            "answer": 0,
+            "explain": "The deposition of the last western emperor is the traditional end of antiquity in Europe."
+          },
+          {
+            "q": "Why did writing change civilization?",
+            "choices": [
+              "It let humans organize beyond what memory allowed",
+              "It made everyone a poet",
+              "It replaced spoken language"
+            ],
+            "answer": 0,
+            "explain": "Laws, taxes, history, and empires all need records. Writing scaled organization past tribal memory."
+          }
+        ]
+      }
+    },
+    {
+      "id": "history-2",
+      "title": "Middle ages",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Rome falls, feudalism rises",
+          "body": "After 476 CE, western Europe fragmented. With no empire to keep order, a system called feudalism took hold: kings granted land to lords, lords gave protection to knights and peasants, and everyone owed loyalty upward. It was messy, local, and lasted nearly a thousand years."
+        },
+        {
+          "type": "text",
+          "title": "Crusades, plague, and parchment",
+          "body": "From 1095, popes called crusades to retake the Holy Land — waves of religious war spanning two centuries. Then in 1347 the Black Death arrived, killing a third to half of Europe. But the same era produced universities, Gothic cathedrals, and the Magna Carta (1215), which first said a king is not above the law."
+        },
+        {
+          "type": "tip",
+          "body": "The 'Dark Ages' weren't uniformly dark. While Europe fragmented, the Islamic Golden Age preserved and advanced Greek science, and China under the Song dynasty printed books and used gunpowder. History's spotlight just moves around."
+        },
+        {
+          "type": "example",
+          "body": "A medieval peasant's year: spring planting, summer harvest, autumn slaughter and salting meat, winter mending tools by the fire. About 90% of people farmed. Your entire life was the 5 kilometers around your village, and news traveled at walking speed."
+        },
+        {
+          "type": "check",
+          "q": "What did the Magna Carta (1215) establish?",
+          "choices": [
+            "Even the king is subject to law",
+            "The pope rules England",
+            "Feudalism is abolished"
+          ],
+          "answer": 0,
+          "explain": "English barons forced King John to accept legal limits — the seed of constitutional government."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What years mark the traditional Middle Ages?",
+          "back": "Roughly 476 CE to 1500 CE."
+        },
+        {
+          "type": "flash",
+          "front": "What was feudalism?",
+          "back": "A system of land-for-loyalty: kings, lords, knights, and peasants bound by mutual obligations."
+        },
+        {
+          "type": "flash",
+          "front": "When did the Black Death strike Europe?",
+          "back": "1347–1352."
+        },
+        {
+          "type": "flash",
+          "front": "What was the Magna Carta?",
+          "back": "A 1215 charter limiting the English king's power — the idea that rulers obey the law."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What filled the power vacuum after Rome fell in the west?",
+            "choices": [
+              "Feudalism — local lords trading protection for loyalty",
+              "Immediate democracy",
+              "A single European empire"
+            ],
+            "answer": 0,
+            "explain": "With no central state, power went local: land, oaths, and armed horsemen."
+          },
+          {
+            "q": "What were the Crusades?",
+            "choices": [
+              "Religious wars to retake the Holy Land, from 1095",
+              "Trade missions to China",
+              "Peasant revolts against lords"
+            ],
+            "answer": 0,
+            "explain": "Pope Urban II called the first in 1095; the campaigns ran for about two centuries."
+          },
+          {
+            "q": "Roughly how much of Europe died in the Black Death?",
+            "choices": [
+              "A third to a half",
+              "One in a hundred",
+              "Almost everyone"
+            ],
+            "answer": 0,
+            "explain": "The 1347–1352 plague killed an estimated 30–50% of Europe's population."
+          },
+          {
+            "q": "Why does the Magna Carta matter today?",
+            "choices": [
+              "It planted the idea that rulers are bound by law",
+              "It ended all wars",
+              "It created parliament overnight"
+            ],
+            "answer": 0,
+            "explain": "Its principle — no one, not even a king, is above the law — echoes in constitutions worldwide."
+          },
+          {
+            "q": "Which statement about the 'Dark Ages' is most accurate?",
+            "choices": [
+              "Europe struggled while other regions advanced in science and culture",
+              "Nothing happened anywhere for 1,000 years",
+              "Everyone was illiterate"
+            ],
+            "answer": 0,
+            "explain": "The Islamic world and Song China made huge advances while Europe was fragmented."
+          }
+        ]
+      }
+    },
+    {
+      "id": "history-3",
+      "title": "Modern era",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The world gets bigger: 1500s",
+          "body": "The Renaissance revived art and learning in Europe, then ships changed everything. Columbus reached the Americas in 1492, Magellan's crew circled the globe by 1522. The printing press (1440s) spread ideas faster than ever — the first information revolution."
+        },
+        {
+          "type": "text",
+          "title": "Steam, steel, and world wars",
+          "body": "Around 1760 the Industrial Revolution mechanized production: factories, railways, cities swelling with workers. The 20th century then brought two world wars (1914–18, 1939–45), the deadliest conflicts in history, followed by the Cold War standoff and decolonization across Africa and Asia."
+        },
+        {
+          "type": "tip",
+          "body": "Don't memorize every date — learn the hinges. 1492 (Americas), 1760s (industrialization), 1914 (WWI), 1945 (WWII ends, UN founded), 1969 (Moon landing). Five pegs hold the whole modern timeline."
+        },
+        {
+          "type": "example",
+          "body": "Apollo 11, July 1969: Neil Armstrong steps onto the Moon, 66 years after the Wright brothers' first flight. One human lifetime spanned from barely leaving the ground to standing on another world — the modern era compresses change like nothing before it."
+        },
+        {
+          "type": "check",
+          "q": "Why is 1969 a hinge date?",
+          "choices": [
+            "Humans first walked on the Moon",
+            "World War II ended",
+            "The printing press was invented"
+          ],
+          "answer": 0,
+          "explain": "Apollo 11's landing capped a century of accelerating technology."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What year did Columbus reach the Americas?",
+          "back": "1492."
+        },
+        {
+          "type": "flash",
+          "front": "When did the Industrial Revolution begin?",
+          "back": "Around 1760, in Britain."
+        },
+        {
+          "type": "flash",
+          "front": "What years were the two world wars?",
+          "back": "WWI: 1914–1918. WWII: 1939–1945."
+        },
+        {
+          "type": "flash",
+          "front": "What happened in 1969?",
+          "back": "Apollo 11 — humans first walked on the Moon."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What made the printing press revolutionary?",
+            "choices": [
+              "Ideas spread faster than ever before",
+              "It printed money",
+              "It replaced all handwriting instantly"
+            ],
+            "answer": 0,
+            "explain": "Gutenberg's press (1440s) made books cheap and plentiful — the first information revolution."
+          },
+          {
+            "q": "What drove the Industrial Revolution?",
+            "choices": [
+              "Mechanized production: factories, steam, railways",
+              "A sudden interest in farming",
+              "The discovery of electricity alone"
+            ],
+            "answer": 0,
+            "explain": "Machines replaced hand labor starting ~1760, reshaping work, cities, and daily life."
+          },
+          {
+            "q": "Which came first: WWI or the Moon landing?",
+            "choices": [
+              "WWI, by about 55 years",
+              "The Moon landing",
+              "They happened the same decade"
+            ],
+            "answer": 0,
+            "explain": "WWI was 1914–18; Apollo 11 landed in 1969."
+          },
+          {
+            "q": "What followed World War II geopolitically?",
+            "choices": [
+              "Cold War standoff and decolonization",
+              "Immediate world peace",
+              "The Roman Empire's return"
+            ],
+            "answer": 0,
+            "explain": "The US–Soviet rivalry froze global politics while empires dissolved across Africa and Asia."
+          },
+          {
+            "q": "Why is the Wright-to-Apollo span (1903–1969) significant?",
+            "choices": [
+              "It shows how fast modern technology compounds",
+              "Flight was actually invented in 1969",
+              "Nothing changed in between"
+            ],
+            "answer": 0,
+            "explain": "Sixty-six years from first powered flight to the Moon — the modern era's signature is accelerating change."
+          }
+        ]
+      }
+    }
+  ]
+}

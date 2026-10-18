@@ -1,0 +1,344 @@
+{
+  "id": "physics",
+  "title": "Physics",
+  "icon": "atom",
+  "color": "#2EC4B6",
+  "levels": [
+    {
+      "id": "physics-1",
+      "title": "Motion",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Speed is how fast, velocity is how fast where",
+          "body": "Speed is distance over time: 100 meters in 10 seconds is 10 m/s. Velocity is speed with a direction attached: 10 m/s north. Two cars can share a speed but have opposite velocities, and physics treats them as completely different motions."
+        },
+        {
+          "type": "text",
+          "title": "Acceleration is the real main character",
+          "body": "Acceleration is change in velocity over time. Speeding up, slowing down, and turning all count, because turning changes direction. A car cruising at steady 60 km/h in a straight line has zero acceleration; the moment it turns, it is accelerating."
+        },
+        {
+          "type": "tip",
+          "body": "Units are the cheat code. Meters per second (m/s) for speed, meters per second squared (m/s²) for acceleration. If your answer's units are wrong, the number is wrong — checking units catches most mistakes before they happen."
+        },
+        {
+          "type": "example",
+          "body": "A cyclist covers 300 meters in 25 seconds.\nSpeed = distance ÷ time = 300 ÷ 25 = 12 m/s.\n\nThat's about 43 km/h — fast for a bike, which is exactly why the number is worth a second look. Sanity-checking answers against the real world is a physics superpower."
+        },
+        {
+          "type": "check",
+          "q": "A car drives 60 km/h north, then 60 km/h south. What changed?",
+          "choices": [
+            "Its velocity, not its speed",
+            "Its speed, not its velocity",
+            "Nothing at all"
+          ],
+          "answer": 0,
+          "explain": "Speed stayed 60 km/h, but direction flipped, so velocity changed. Velocity always includes direction."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the formula for speed?",
+          "back": "Speed = distance ÷ time."
+        },
+        {
+          "type": "flash",
+          "front": "What is the difference between speed and velocity?",
+          "back": "Velocity is speed plus direction."
+        },
+        {
+          "type": "flash",
+          "front": "What are the units of acceleration?",
+          "back": "Meters per second squared (m/s²)."
+        },
+        {
+          "type": "flash",
+          "front": "Give one example of acceleration that isn't speeding up.",
+          "back": "Slowing down, or turning at constant speed — both change velocity."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "A runner covers 200 m in 40 s. What is the speed?",
+            "choices": [
+              "5 m/s",
+              "8 m/s",
+              "40 m/s"
+            ],
+            "answer": 0,
+            "explain": "200 ÷ 40 = 5 m/s. Divide distance by time."
+          },
+          {
+            "q": "Which of these is accelerating?",
+            "choices": [
+              "A car turning a corner at steady speed",
+              "A car parked at a light",
+              "A car cruising straight at constant speed"
+            ],
+            "answer": 0,
+            "explain": "Turning changes direction, and direction is part of velocity. Changing velocity is acceleration."
+          },
+          {
+            "q": "Why does velocity include direction?",
+            "choices": [
+              "Because motion in opposite directions is physically different",
+              "To make the math harder",
+              "It doesn't — direction is optional"
+            ],
+            "answer": 0,
+            "explain": "60 km/h north vs 60 km/h south are different motions with different effects, like momentum."
+          },
+          {
+            "q": "A ball's velocity changes from 0 to 20 m/s in 4 s. Acceleration?",
+            "choices": [
+              "5 m/s²",
+              "4 m/s²",
+              "80 m/s²"
+            ],
+            "answer": 0,
+            "explain": "(20 − 0) ÷ 4 = 5 m/s². Change in velocity over time."
+          },
+          {
+            "q": "Your answer comes out in m/s but the question asked for acceleration. What's wrong?",
+            "choices": [
+              "The calculation — acceleration needs m/s²",
+              "Nothing, the units are fine",
+              "The question is unanswerable"
+            ],
+            "answer": 0,
+            "explain": "Acceleration is velocity change over time, so its units are m/s². Wrong units mean a wrong setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "physics-2",
+      "title": "Forces",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Objects are lazy: Newton's first law",
+          "body": "An object keeps doing what it's doing unless a force interferes. A puck slides across ice nearly forever because friction is tiny; it stops on carpet because friction is huge. This laziness has a name: inertia, and mass measures how much of it an object has."
+        },
+        {
+          "type": "text",
+          "title": "F = ma: the most famous equation in physics",
+          "body": "Force equals mass times acceleration. Push twice as hard, get twice the acceleration. Double the mass, halve the acceleration for the same push. And Newton's third law: every push gets pushed back — the rocket pushes exhaust down, the exhaust pushes the rocket up."
+        },
+        {
+          "type": "tip",
+          "body": "Draw the arrows. A free-body diagram is just the object with every force as an arrow: gravity down, the table pushing up, friction opposing motion. Once the arrows are on paper, F = ma turns into simple addition instead of a word puzzle."
+        },
+        {
+          "type": "example",
+          "body": "You push a 2 kg box and it accelerates at 3 m/s².\nF = m × a = 2 × 3 = 6 newtons.\n\nSix newtons is about the weight of an apple in your hand — small forces move small masses impressively fast, which is why the numbers deserve a reality check."
+        },
+        {
+          "type": "check",
+          "q": "A rocket fires exhaust downward and rises. Which law is this?",
+          "choices": [
+            "Newton's third law",
+            "Newton's first law",
+            "Conservation of energy"
+          ],
+          "answer": 0,
+          "explain": "Third law: every action has an equal, opposite reaction. Exhaust goes down, rocket goes up."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "State Newton's first law in one sentence.",
+          "back": "Objects keep their motion unless a net force acts on them."
+        },
+        {
+          "type": "flash",
+          "front": "What does F = ma mean?",
+          "back": "Force equals mass times acceleration."
+        },
+        {
+          "type": "flash",
+          "front": "State Newton's third law.",
+          "back": "Every action has an equal and opposite reaction."
+        },
+        {
+          "type": "flash",
+          "front": "What is inertia?",
+          "back": "An object's resistance to changes in motion; measured by mass."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "A 4 kg cart accelerates at 2 m/s². What force is pushing it?",
+            "choices": [
+              "8 N",
+              "2 N",
+              "6 N"
+            ],
+            "answer": 0,
+            "explain": "F = 4 × 2 = 8 newtons."
+          },
+          {
+            "q": "Why does a hockey puck glide so far on ice?",
+            "choices": [
+              "Friction is tiny, so almost no force stops it",
+              "Ice pushes it forward",
+              "The puck has no mass"
+            ],
+            "answer": 0,
+            "explain": "First law: with barely any friction, the puck keeps its velocity."
+          },
+          {
+            "q": "You push a wall and it pushes back. You don't move because:",
+            "choices": [
+              "The forces balance — net force on you is zero",
+              "The wall is being polite",
+              "Friction doesn't exist indoors"
+            ],
+            "answer": 0,
+            "explain": "The wall's push cancels yours. No net force, no acceleration — that's the third law in action."
+          },
+          {
+            "q": "Two boxes get the same push. The heavier one accelerates less because:",
+            "choices": [
+              "Greater mass means more inertia (F = ma)",
+              "Heavier objects ignore forces",
+              "Friction only affects heavy things"
+            ],
+            "answer": 0,
+            "explain": "For the same force, acceleration = F/m. More mass, less acceleration."
+          },
+          {
+            "q": "What is the net force on a book sitting still on a table?",
+            "choices": [
+              "Zero — gravity and the table's push cancel",
+              "Equal to its weight",
+              "Impossible to know"
+            ],
+            "answer": 0,
+            "explain": "Gravity pulls down, the table pushes up equally. Balanced forces, zero net, zero acceleration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "physics-3",
+      "title": "Energy",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Moving things carry energy",
+          "body": "Kinetic energy is the energy of motion: KE = ½mv². Notice the v² — doubling your speed quadruples the energy, which is why a 100 km/h crash is four times as violent as a 50 km/h one, not twice. Speed is expensive."
+        },
+        {
+          "type": "text",
+          "title": "Height is stored energy",
+          "body": "Lift something and you store gravitational potential energy: PE = mgh (mass × gravity × height). Drop it and the stored energy converts to motion. A roller coaster is just this trade running back and forth, which is why the first hill is always the tallest."
+        },
+        {
+          "type": "tip",
+          "body": "Energy never appears or vanishes, it only changes form. This conservation law solves problems that forces can't touch: a pendulum's speed at the bottom follows directly from the height it fell, no stopwatch needed. When stuck, ask: where did the energy go?"
+        },
+        {
+          "type": "example",
+          "body": "A 2 kg ball sits on a 5 m shelf. Take g = 10 m/s².\nPE = m × g × h = 2 × 10 × 5 = 100 joules.\n\nKnock it off and all 100 J become motion (ignoring air). Conservation of energy just predicted the landing speed without tracking a single force."
+        },
+        {
+          "type": "check",
+          "q": "Why is a 100 km/h crash four times worse than 50 km/h?",
+          "choices": [
+            "Kinetic energy grows with v²",
+            "Cars get heavier at speed",
+            "Brakes fail above 80 km/h"
+          ],
+          "answer": 0,
+          "explain": "KE = ½mv². Double the v, quadruple the energy."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the formula for kinetic energy?",
+          "back": "KE = ½mv²."
+        },
+        {
+          "type": "flash",
+          "front": "What is the formula for gravitational potential energy?",
+          "back": "PE = mgh."
+        },
+        {
+          "type": "flash",
+          "front": "State the conservation of energy.",
+          "back": "Energy can't be created or destroyed, only transformed."
+        },
+        {
+          "type": "flash",
+          "front": "What are the units of energy?",
+          "back": "Joules (J)."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "A 1 kg ball moves at 4 m/s. Its kinetic energy?",
+            "choices": [
+              "8 J",
+              "4 J",
+              "16 J"
+            ],
+            "answer": 0,
+            "explain": "½ × 1 × 4² = ½ × 16 = 8 joules."
+          },
+          {
+            "q": "Where does a roller coaster move fastest?",
+            "choices": [
+              "At the lowest point",
+              "At the top of the first hill",
+              "Speed is constant throughout"
+            ],
+            "answer": 0,
+            "explain": "Potential energy is lowest at the bottom, so kinetic energy — and speed — is highest there."
+          },
+          {
+            "q": "You lift a box to a shelf. Where did your effort go?",
+            "choices": [
+              "Into gravitational potential energy",
+              "It vanished as heat only",
+              "Nowhere — lifting is free"
+            ],
+            "answer": 0,
+            "explain": "Work becomes stored PE = mgh. Drop the box and it converts back to motion."
+          },
+          {
+            "q": "What is power?",
+            "choices": [
+              "How fast work gets done (work ÷ time)",
+              "The same thing as energy",
+              "Force times mass"
+            ],
+            "answer": 0,
+            "explain": "Power = work/time, in watts. Energy is the amount; power is the rate."
+          },
+          {
+            "q": "A pendulum swings but each swing is slightly lower. Why?",
+            "choices": [
+              "Friction and air resistance steal energy as heat",
+              "Energy is being destroyed",
+              "Gravity weakens over time"
+            ],
+            "answer": 0,
+            "explain": "Energy is conserved overall — some just leaks into heat and sound instead of motion."
+          }
+        ]
+      }
+    }
+  ]
+}

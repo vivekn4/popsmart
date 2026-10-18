@@ -1,0 +1,344 @@
+{
+  "id": "music",
+  "title": "Music Theory",
+  "icon": "music",
+  "color": "#FF6B9D",
+  "levels": [
+    {
+      "id": "music-1",
+      "title": "Notes & rhythm",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Meet the musical alphabet",
+          "body": "Only seven letters: A, B, C, D, E, F, G — then they repeat. Middle C sits near the center of the piano, and every other note is measured from there. Seven letters run all of Western music."
+        },
+        {
+          "type": "text",
+          "title": "Notes have length, not just pitch",
+          "body": "A whole note holds for 4 beats, a half note for 2, a quarter note for 1, and an eighth note for half a beat. Rhythm is just pitch plus timing — the same note means different things depending on how long you hold it."
+        },
+        {
+          "type": "example",
+          "body": "Play C D E F as quarter notes — one beat each — and you've played four even steps. Now play them as eighth notes (two per beat) and the same four notes feel twice as urgent. Same pitches, completely different energy."
+        },
+        {
+          "type": "tip",
+          "body": "Count out loud until it clicks: say 1-2-3-4 under quarter notes, 1-and-2-and under eighth notes. Your mouth is the cheapest metronome ever made."
+        },
+        {
+          "type": "check",
+          "q": "How many beats does a half note get?",
+          "choices": [
+            "2 beats",
+            "4 beats",
+            "1 beat"
+          ],
+          "answer": 0,
+          "explain": "Half of a whole (4 beats) is 2. Quarter = 1, half = 2, whole = 4 — the names are literally fractions of a whole note."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "How many different note letters are there?",
+          "back": "Seven: A, B, C, D, E, F, G. After G the alphabet wraps back to A, one octave higher."
+        },
+        {
+          "type": "flash",
+          "front": "How long is a quarter note?",
+          "back": "One beat. It's the default pulse — most music you hear counts in quarter notes."
+        },
+        {
+          "type": "flash",
+          "front": "What does tempo mean?",
+          "back": "The speed of the beat, measured in beats per minute (BPM). 120 BPM means two beats every second."
+        },
+        {
+          "type": "flash",
+          "front": "What is an octave?",
+          "back": "The distance from one note to the next note with the same letter — C to C, for example. It sounds like the 'same' note, higher."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "After G, what comes next in the musical alphabet?",
+            "choices": [
+              "A",
+              "H",
+              "It ends at G"
+            ],
+            "answer": 0,
+            "explain": "The musical alphabet only uses A through G, then repeats. After G comes A, one octave up."
+          },
+          {
+            "q": "A whole note lasts 4 beats. How long is an eighth note?",
+            "choices": [
+              "Half a beat",
+              "2 beats",
+              "8 beats"
+            ],
+            "answer": 0,
+            "explain": "Eighth = 1/8 of a whole note = half a beat. Two eighth notes fit inside a single beat."
+          },
+          {
+            "q": "What does 100 BPM tell you?",
+            "choices": [
+              "100 beats happen every minute",
+              "The song is 100 minutes long",
+              "There are 100 notes total"
+            ],
+            "answer": 0,
+            "explain": "BPM = beats per minute. 100 BPM means a beat lands 100 times each minute — a relaxed walking pace."
+          },
+          {
+            "q": "Which lasts longer: a half note, or two quarter notes tied together?",
+            "choices": [
+              "They're exactly the same length",
+              "The half note",
+              "The two quarters"
+            ],
+            "answer": 0,
+            "explain": "Both total 2 beats. A tie just glues note lengths together — the math is identical."
+          },
+          {
+            "q": "Middle C is called 'middle' because…",
+            "choices": [
+              "It sits near the middle of the piano keyboard",
+              "It's the middle of every song",
+              "It's always played with the middle finger"
+            ],
+            "answer": 0,
+            "explain": "It's roughly at the center of a standard 88-key piano, and it works as the landmark other notes are measured from."
+          }
+        ]
+      }
+    },
+    {
+      "id": "music-2",
+      "title": "Scales",
+      "cards": [
+        {
+          "type": "text",
+          "title": "A scale is a ladder of notes",
+          "body": "A scale is a set of notes in ascending order, defined by the pattern of steps between them. Learn one pattern and you can build that scale starting from any note on the keyboard."
+        },
+        {
+          "type": "text",
+          "title": "Whole steps and half steps",
+          "body": "The smallest step on a piano is a half step — one key to its immediate neighbor, black or white. Two half steps make a whole step. Every scale is just a recipe of wholes and halves."
+        },
+        {
+          "type": "example",
+          "body": "C major = all white keys: C D E F G A B C. The pattern is W-W-H-W-W-W-H. No sharps, no flats — that's why C major is where everyone starts."
+        },
+        {
+          "type": "tip",
+          "body": "Sharps (#) raise a note one half step; flats (b) lower it one half step. The same piano key can have two names — C# and Db are the same pitch. Musicians call that an enharmonic."
+        },
+        {
+          "type": "check",
+          "q": "The major pattern is W-W-H-W-W-W-H. Starting on G, what's the 7th note?",
+          "choices": [
+            "F#",
+            "F",
+            "G#"
+          ],
+          "answer": 0,
+          "explain": "Count it out: G(1) A(2) B(3) C(4) D(5) E(6) F#(7). The half step between E and F# forces the sharp — that's why G major has one sharp."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is a scale?",
+          "back": "An ordered set of notes built from a fixed pattern of whole and half steps."
+        },
+        {
+          "type": "flash",
+          "front": "What is the major scale pattern?",
+          "back": "W-W-H-W-W-W-H: whole, whole, half, whole, whole, whole, half."
+        },
+        {
+          "type": "flash",
+          "front": "What does a sharp do?",
+          "back": "Raises a note by one half step. A flat lowers it by one half step."
+        },
+        {
+          "type": "flash",
+          "front": "How many sharps does C major have?",
+          "back": "None. C major uses only white keys — the only major scale with no sharps or flats."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What is a half step?",
+            "choices": [
+              "One piano key to its immediate neighbor",
+              "Skipping one key",
+              "Two whole notes"
+            ],
+            "answer": 0,
+            "explain": "One key to its immediate neighbor — black or white — is a half step. It's the smallest interval in Western music."
+          },
+          {
+            "q": "In C D E F G A B C, where do the half steps fall?",
+            "choices": [
+              "Between E–F and B–C",
+              "Between C–D and G–A",
+              "There are no half steps"
+            ],
+            "answer": 0,
+            "explain": "Those pairs have no black key between them on the piano — that's exactly where the H steps of W-W-H-W-W-W-H land."
+          },
+          {
+            "q": "A minor scale sounds…",
+            "choices": [
+              "Darker than major",
+              "Exactly like major",
+              "Louder than major"
+            ],
+            "answer": 0,
+            "explain": "Same twelve notes, different pattern — the flattened 3rd gives minor its darker color. Happy vs. sad is the quickest way to hear the difference."
+          },
+          {
+            "q": "C# and Db are…",
+            "choices": [
+              "The same pitch with two names",
+              "Two different pitches",
+              "A major and minor pair"
+            ],
+            "answer": 0,
+            "explain": "One piano key, two spellings — an enharmonic. Which name you use depends on the key you're playing in."
+          },
+          {
+            "q": "How many distinct notes in a major scale (not counting the repeated top note)?",
+            "choices": [
+              "7",
+              "8",
+              "12"
+            ],
+            "answer": 0,
+            "explain": "Seven distinct notes, then the octave repeats the starting note — C D E F G A B, then C again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "music-3",
+      "title": "Chords",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Chords are note stacks",
+          "body": "Play three or more notes at once and you get a chord. The most common stack — the triad — is built from the 1st, 3rd, and 5th notes of a scale. Stack every other note and harmony appears."
+        },
+        {
+          "type": "text",
+          "title": "Major vs. minor: it's the middle note",
+          "body": "A major triad has a wide (major) 3rd; a minor triad has a narrow (minor) 3rd. C–E–G sounds bright; C–Eb–G sounds moody. One note moved a half step changes the entire feeling."
+        },
+        {
+          "type": "example",
+          "body": "Build C major in 3 steps: 1) Take the C major scale: C D E F G A B. 2) Grab the 1st (C), 3rd (E), and 5th (G). 3) Play them together — that's a C major chord."
+        },
+        {
+          "type": "tip",
+          "body": "Roman numerals name chords by position: I, IV, V. Thousands of pop songs are just I–V–vi–IV on repeat. Learn those four shapes and you can fake your way through most radio hits."
+        },
+        {
+          "type": "check",
+          "q": "C minor is C–Eb–G. What changed from C major (C–E–G)?",
+          "choices": [
+            "The 3rd dropped a half step",
+            "The 5th dropped a half step",
+            "The root changed"
+          ],
+          "answer": 0,
+          "explain": "E to Eb is one half step down. That flattened 3rd is the entire difference between major and minor triads."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What notes make a triad?",
+          "back": "The 1st, 3rd, and 5th notes of a scale, played together."
+        },
+        {
+          "type": "flash",
+          "front": "What makes a chord minor instead of major?",
+          "back": "The 3rd is lowered one half step — a minor 3rd instead of a major 3rd."
+        },
+        {
+          "type": "flash",
+          "front": "What is a I–IV–V progression in C major?",
+          "back": "The C, F, and G chords — the 1st, 4th, and 5th chords of the scale. The backbone of blues and rock."
+        },
+        {
+          "type": "flash",
+          "front": "How many notes minimum for a chord?",
+          "back": "Three. Two notes played together is just an interval."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Which scale degrees form a basic triad?",
+            "choices": [
+              "1st, 3rd, 5th",
+              "1st, 2nd, 3rd",
+              "1st, 4th, 5th"
+            ],
+            "answer": 0,
+            "explain": "Root, third, fifth — stack every other note and you get the triad. That's the recipe for every basic chord."
+          },
+          {
+            "q": "G–B–D is what kind of chord?",
+            "choices": [
+              "G major",
+              "G minor",
+              "G seventh"
+            ],
+            "answer": 0,
+            "explain": "G to B is a major 3rd (two whole steps) and G to D is a perfect 5th — the major triad recipe."
+          },
+          {
+            "q": "You flatten the 3rd of a major chord. What do you get?",
+            "choices": [
+              "A minor chord",
+              "A bigger major chord",
+              "A broken chord"
+            ],
+            "answer": 0,
+            "explain": "Lowering the 3rd by a half step converts major to minor. Same root, same 5th — new mood."
+          },
+          {
+            "q": "In I–V–vi–IV in C major, what is the vi chord?",
+            "choices": [
+              "A minor",
+              "A major",
+              "F major"
+            ],
+            "answer": 0,
+            "explain": "The 6th note of C major is A, and the vi chord is minor by default. I–V–vi–IV = C–G–Am–F."
+          },
+          {
+            "q": "Why do songwriters love the I–IV–V progression?",
+            "choices": [
+              "It creates tension and release that feels satisfying",
+              "It's the only legal progression",
+              "It uses no sharps"
+            ],
+            "answer": 0,
+            "explain": "The V chord pulls hard back to I — that tension-and-release is the engine of countless songs, from blues to pop-punk."
+          }
+        ]
+      }
+    }
+  ]
+}

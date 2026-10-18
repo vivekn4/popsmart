@@ -1,0 +1,359 @@
+{
+ "id": "geo",
+ "title": "Geography",
+ "icon": "globe",
+ "color": "#5DADE2",
+ "levels": [
+  {
+   "id": "geo-1",
+   "title": "Maps & continents",
+   "cards": [
+    {
+     "type": "text",
+     "title": "The world in seven pieces",
+     "body": "Earth's land is split into seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia. Asia is the biggest by far \u2014 it holds about 60 percent of all humans. Antarctica is the odd one out: a frozen continent with no permanent residents."
+    },
+    {
+     "type": "text",
+     "title": "Oceans glue it together",
+     "body": "Five oceans fill the gaps between continents: Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific alone covers more area than all the land on Earth combined. Every coastline you know touches one of these five."
+    },
+    {
+     "type": "tip",
+     "body": "Remember the seven with a silly sentence: All Ants Are Eating Apples Near Australia \u2014 Africa, Antarctica, Asia, Europe, Australia, North America... wait, that skips South America. Try: 'Aunt Annie Ate Eggs And Sausages' for Africa, Antarctica, Asia, Europe, Australia, North America, South America."
+    },
+    {
+     "type": "example",
+     "body": "Find yourself on the map: pick any city you know, then name its continent, then the ocean nearest to it. Toronto? North America, Atlantic side. Sydney? Australia, Pacific side. Three facts per city, and the map starts feeling like home."
+    },
+    {
+     "type": "check",
+     "q": "Which is the largest continent?",
+     "choices": [
+      "Asia",
+      "Africa",
+      "North America"
+     ],
+     "answer": 0,
+     "explain": "Asia dwarfs the rest \u2014 about 44 million square kilometers, roughly a third of Earth's land. Africa is second, North America third."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "How many continents are there?",
+     "back": "Seven: Asia, Africa, North America, South America, Antarctica, Europe, Australia."
+    },
+    {
+     "type": "flash",
+     "front": "Which ocean is the largest?",
+     "back": "The Pacific \u2014 bigger than all of Earth's land put together."
+    },
+    {
+     "type": "flash",
+     "front": "Which continent has no permanent residents?",
+     "back": "Antarctica. Only researchers stay there, and only temporarily."
+    },
+    {
+     "type": "flash",
+     "front": "Name the five oceans.",
+     "back": "Pacific, Atlantic, Indian, Southern, and Arctic."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "How many continents does Earth have?",
+      "choices": [
+       "7",
+       "5",
+       "6"
+      ],
+      "answer": 0,
+      "explain": "Seven: Asia, Africa, North America, South America, Antarctica, Europe, Australia. Five is the number of oceans."
+     },
+     {
+      "type": "check",
+      "q": "The Pacific Ocean is...?",
+      "choices": [
+       "Larger than all Earth's land combined",
+       "About the size of Asia",
+       "Smaller than the Atlantic"
+      ],
+      "answer": 0,
+      "explain": "The Pacific covers about 165 million square kilometers \u2014 more than every continent added together."
+     },
+     {
+      "type": "check",
+      "q": "Which continent is the odd one out for population?",
+      "choices": [
+       "Antarctica",
+       "Australia",
+       "Europe"
+      ],
+      "answer": 0,
+      "explain": "Antarctica has zero permanent residents. Australia has about 26 million people; Europe has over 700 million."
+     },
+     {
+      "type": "check",
+      "q": "Toronto sits on which continent?",
+      "choices": [
+       "North America",
+       "Europe",
+       "Asia"
+      ],
+      "answer": 0,
+      "explain": "Toronto, Canada is firmly in North America. Its nearest ocean is the Atlantic."
+     },
+     {
+      "type": "check",
+      "q": "Which ocean touches Australia's east coast?",
+      "choices": [
+       "Pacific",
+       "Indian",
+       "Atlantic"
+      ],
+      "answer": 0,
+      "explain": "Australia's east coast \u2014 Sydney, Brisbane \u2014 faces the Pacific. The Indian Ocean is on the west."
+     }
+    ]
+   }
+  },
+  {
+   "id": "geo-2",
+   "title": "Climate zones",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Three bands run the weather",
+     "body": "Earth has three main climate zones. The tropics wrap the equator \u2014 hot and wet all year. The temperate zones sit in the middle \u2014 that's where seasons happen. The polar zones cap the top and bottom \u2014 cold almost all the time. Your latitude decides your wardrobe."
+    },
+    {
+     "type": "text",
+     "title": "Rain has favorite addresses",
+     "body": "Tropical rainforests near the equator get rain nearly every afternoon. Deserts like the Sahara sit around 30 degrees north and south, where dry air sinks. Same planet, opposite weather \u2014 it's all about how air moves."
+    },
+    {
+     "type": "tip",
+     "body": "Latitude is the cheat code: 0\u00b0 is the equator (hot), 23.5\u00b0 marks the tropics' edge, 66.5\u00b0 starts the polar circles. If you know a place's latitude, you can guess its climate before you ever visit."
+    },
+    {
+     "type": "example",
+     "body": "Compare Quito, Ecuador (on the equator, but high in the Andes) with Singapore (on the equator, at sea level). Both tropical by latitude \u2014 but Quito feels like spring year-round while Singapore is hot and steamy. Altitude rewrites the rules latitude sets."
+    },
+    {
+     "type": "check",
+     "q": "Where do deserts like the Sahara mostly sit?",
+     "choices": [
+      "Around 30\u00b0 north and south of the equator",
+      "Right on the equator",
+      "Near the poles"
+     ],
+     "answer": 0,
+     "explain": "Dry air sinks around 30\u00b0 latitude, squeezing out moisture. That's why the Sahara, the Arabian desert, and Australia's outback all sit near that line."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "What are Earth's three main climate zones?",
+     "back": "Tropical (hot, near equator), temperate (seasons, mid-latitudes), polar (cold, near the poles)."
+    },
+    {
+     "type": "flash",
+     "front": "Why is it hot at the equator?",
+     "back": "The sun's rays hit most directly there, year-round."
+    },
+    {
+     "type": "flash",
+     "front": "Where do most deserts form?",
+     "back": "Around 30\u00b0 north and south latitude, where dry air sinks."
+    },
+    {
+     "type": "flash",
+     "front": "What can change a place's climate besides latitude?",
+     "back": "Altitude \u2014 high places are cooler. Quito sits on the equator but feels like spring because it's 2,850 meters up."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Which zone gets all four seasons?",
+      "choices": [
+       "Temperate",
+       "Tropical",
+       "Polar"
+      ],
+      "answer": 0,
+      "explain": "The temperate zones, between the tropics and the polar circles, tilt in and out of the sun \u2014 that's what makes spring, summer, autumn, winter."
+     },
+     {
+      "type": "check",
+      "q": "The tropics are hot because...?",
+      "choices": [
+       "The sun hits most directly there",
+       "They're closest to the sun in space",
+       "They have no atmosphere"
+      ],
+      "answer": 0,
+      "explain": "It's about angle, not distance. Near the equator the sun's rays strike nearly straight down all year."
+     },
+     {
+      "type": "check",
+      "q": "Deserts cluster near 30\u00b0 latitude because...?",
+      "choices": [
+       "Dry air sinks there",
+       "It's farthest from the oceans",
+       "Mountains block all wind"
+      ],
+      "answer": 0,
+      "explain": "Global air circulation sinks dry air around 30\u00b0 north and south. Some deserts have other causes, but this is the big pattern."
+     },
+     {
+      "type": "check",
+      "q": "Two cities on the equator can feel very different if...?",
+      "choices": [
+       "One is much higher in altitude",
+       "One is near a river",
+       "They're in different hemispheres"
+      ],
+      "answer": 0,
+      "explain": "Altitude cools things fast \u2014 about 6.5\u00b0C per kilometer up. That's why Quito feels springlike while Singapore swelters."
+     },
+     {
+      "type": "check",
+      "q": "Polar zones are cold mainly because...?",
+      "choices": [
+       "Sunlight arrives at a shallow angle",
+       "They're in permanent shadow",
+       "Ice reflects all heat away"
+      ],
+      "answer": 0,
+      "explain": "Near the poles the sun stays low, so its energy spreads thin over a wide area. The ice reflecting heat back just doubles down on the cold."
+     }
+    ]
+   }
+  },
+  {
+   "id": "geo-3",
+   "title": "Capitals of the world",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Capitals aren't always the biggest",
+     "body": "A capital is where the government sits \u2014 not necessarily the biggest city. Washington D.C. runs the US, but New York is far larger. Canberra runs Australia while Sydney gets the fame. Size and power live in different zip codes."
+    },
+    {
+     "type": "text",
+     "title": "Some capitals moved on purpose",
+     "body": "Bras\u00edlia was built from scratch in the 1960s to pull Brazil's capital inland from Rio. Ottawa was picked as a compromise between Toronto and Montreal. Capitals are political choices, not popularity contests."
+    },
+    {
+     "type": "tip",
+     "body": "Learn capitals in pairs with a hook: Paris\u2013France (fashion), Tokyo\u2013Japan (tech), Cairo\u2013Egypt (pyramids), Ottawa\u2013Canada (polite), Canberra\u2013Australia (not Sydney! \u2014 that's the classic trap)."
+    },
+    {
+     "type": "example",
+     "body": "Quiz yourself the fun way: name a country, then blurt its capital before three seconds pass. France \u2014 Paris. Japan \u2014 Tokyo. Egypt \u2014 Cairo. Speed beats staring at lists."
+    },
+    {
+     "type": "check",
+     "q": "What's the capital of Australia?",
+     "choices": [
+      "Canberra",
+      "Sydney",
+      "Melbourne"
+     ],
+     "answer": 0,
+     "explain": "Canberra \u2014 the planned capital. Sydney is the famous one, which is exactly why this question traps people."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "Capital of France?",
+     "back": "Paris."
+    },
+    {
+     "type": "flash",
+     "front": "Capital of Japan?",
+     "back": "Tokyo."
+    },
+    {
+     "type": "flash",
+     "front": "Capital of Canada?",
+     "back": "Ottawa (not Toronto!)."
+    },
+    {
+     "type": "flash",
+     "front": "Capital of Brazil?",
+     "back": "Bras\u00edlia (not Rio de Janeiro)."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Capital of Egypt?",
+      "choices": [
+       "Cairo",
+       "Alexandria",
+       "Giza"
+      ],
+      "answer": 0,
+      "explain": "Cairo \u2014 home to about 20 million people in its metro area. Alexandria is the famous port; Giza holds the pyramids but isn't the capital."
+     },
+     {
+      "type": "check",
+      "q": "Which is NOT a capital?",
+      "choices": [
+       "Sydney",
+       "Ottawa",
+       "Paris"
+      ],
+      "answer": 0,
+      "explain": "Sydney is Australia's biggest city but Canberra is the capital. Ottawa and Paris are both real capitals."
+     },
+     {
+      "type": "check",
+      "q": "Why was Bras\u00edlia built?",
+      "choices": [
+       "To move Brazil's capital inland from Rio",
+       "Because Rio sank",
+       "As a backup during wartime"
+      ],
+      "answer": 0,
+      "explain": "Brazil built Bras\u00edlia from nothing in the late 1950s and moved the capital there in 1960, to develop the interior."
+     },
+     {
+      "type": "check",
+      "q": "Washington D.C. vs New York \u2014 which is the capital?",
+      "choices": [
+       "Washington D.C.",
+       "New York",
+       "Both share it"
+      ],
+      "answer": 0,
+      "explain": "D.C. holds the government; New York holds the population and the money. Capitals are about power, not size."
+     },
+     {
+      "type": "check",
+      "q": "Capital of the United Kingdom?",
+      "choices": [
+       "London",
+       "Manchester",
+       "Edinburgh"
+      ],
+      "answer": 0,
+      "explain": "London. Edinburgh is Scotland's capital, Manchester is a major city \u2014 but the UK's seat of government is London."
+     }
+    ]
+   }
+  }
+ ]
+}

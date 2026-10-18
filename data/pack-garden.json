@@ -1,0 +1,344 @@
+{
+  "id": "garden",
+  "title": "Gardening",
+  "icon": "sprout",
+  "color": "#82CD47",
+  "levels": [
+    {
+      "id": "garden-1",
+      "title": "Soil & seeds",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Soil is not just dirt",
+          "body": "Good soil is roughly 45% minerals, 25% water, 25% air, and 5% organic matter. Roots need all four: minerals feed the plant, water carries nutrients, air lets roots breathe, and organic matter (compost) holds it all together."
+        },
+        {
+          "type": "text",
+          "title": "Know your soil type",
+          "body": "Squeeze a handful of damp soil: sandy soil crumbles instantly and drains fast, clay forms a tight ball and holds water, loam holds a loose shape and crumbles when poked \u2014 that's the jackpot. Most vegetables want loam."
+        },
+        {
+          "type": "tip",
+          "body": "The finger test beats any gadget: push your finger 2 inches into the soil. Dry? Water. Moist? Wait. Soggy? Your plant is drowning \u2014 improve drainage before it rots."
+        },
+        {
+          "type": "example",
+          "body": "Starting tomatoes: sow seeds \u00bc inch deep in seed mix (not garden soil), keep at 70-75\u00b0F, and they'll sprout in 5-10 days. A seed planted twice as deep as it is wide is the rule of thumb."
+        },
+        {
+          "type": "check",
+          "q": "Your damp soil forms a tight sticky ball. What type is it?",
+          "choices": [
+            "Sandy",
+            "Clay",
+            "Loam"
+          ],
+          "answer": 1,
+          "explain": "Clay particles are tiny and pack tightly, holding water and forming balls. Sandy soil crumbles; loam holds a loose shape."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are the four parts of healthy soil?",
+          "back": "Minerals (~45%), water (~25%), air (~25%), organic matter (~5%)."
+        },
+        {
+          "type": "flash",
+          "front": "Which soil type do most vegetables prefer?",
+          "back": "Loam \u2014 holds shape loosely, drains well, rich in nutrients."
+        },
+        {
+          "type": "flash",
+          "front": "How deep should you plant a seed?",
+          "back": "About twice as deep as the seed is wide."
+        },
+        {
+          "type": "flash",
+          "front": "What does the finger test tell you?",
+          "back": "Whether soil 2 inches down is dry (water), moist (wait), or soggy (drainage problem)."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why do roots need air in the soil?",
+            "choices": [
+              "Air makes soil warmer",
+              "Worms need air to dig",
+              "Roots breathe and can suffocate in waterlogged soil"
+            ],
+            "answer": 2,
+            "explain": "Roots respire like the rest of the plant. Waterlogged soil squeezes out air pockets and roots rot."
+          },
+          {
+            "q": "What does compost (organic matter) do for soil?",
+            "choices": [
+              "Holds nutrients and moisture, feeds soil life",
+              "Makes soil purely sand",
+              "Replaces the need for sunlight"
+            ],
+            "answer": 0,
+            "explain": "Compost is the glue: it holds water and nutrients, feeds microbes, and improves both sandy and clay soils."
+          },
+          {
+            "q": "You plant bean seeds 3 inches deep and few sprout. What went wrong?",
+            "choices": [
+              "Beans don't grow from seeds",
+              "Planted too deep \u2014 seedlings ran out of energy",
+              "The soil was too warm"
+            ],
+            "answer": 1,
+            "explain": "Seeds carry limited stored energy. Buried too deep, the sprout exhausts itself before reaching light."
+          },
+          {
+            "q": "Sandy soil drains in minutes and plants wilt fast. What's the fix?",
+            "choices": [
+              "Water less often",
+              "Mix in compost to hold moisture",
+              "Add more sand"
+            ],
+            "answer": 1,
+            "explain": "Compost acts like a sponge in sandy soil, holding water where roots can reach it."
+          },
+          {
+            "q": "A seed packet says 'sow after last frost.' Why does timing matter?",
+            "choices": [
+              "Cold soil slows germination and frost kills seedlings",
+              "Frost makes seeds grow faster",
+              "Seeds only sprout in summer heat"
+            ],
+            "answer": 0,
+            "explain": "Most seeds need warm soil to germinate, and tender seedlings die in frost. Timing matches the seed's biology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "garden-2",
+      "title": "Water & light",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Water deeply, not daily",
+          "body": "Shallow daily sprinkles train roots to stay near the surface, where they dry out fast. One deep watering per week pushes roots downward into cool, moist soil \u2014 building drought-proof plants. Most vegetables want about 1 inch of water per week."
+        },
+        {
+          "type": "text",
+          "title": "Read the plant, not the calendar",
+          "body": "Wilting in the morning means thirsty; wilting only in afternoon heat is normal. Yellow lower leaves often mean overwatering, while crispy brown edges mean underwatering. The plant is always telling you something \u2014 learn its language."
+        },
+        {
+          "type": "tip",
+          "body": "Water the soil, not the leaves. Wet foliage invites fungal disease; a soaker hose or watering can at the base keeps leaves dry and delivers water where roots actually are."
+        },
+        {
+          "type": "example",
+          "body": "Tomatoes in July: water deeply 2-3 times per week (about 1-1.5 inches total), mulch 3 inches around the base, and water in the morning so leaves dry by evening. Blossom-end rot? That's inconsistent watering, not a disease."
+        },
+        {
+          "type": "check",
+          "q": "Your plant's lower leaves are yellow and the soil is soggy. What's wrong?",
+          "choices": [
+            "Not enough sun",
+            "Underwatering",
+            "Overwatering"
+          ],
+          "answer": 2,
+          "explain": "Yellow lower leaves plus soggy soil is classic overwatering \u2014 roots are suffocating. Let it dry out."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "How much water do most vegetables need weekly?",
+          "back": "About 1 inch, delivered in deep waterings rather than daily sprinkles."
+        },
+        {
+          "type": "flash",
+          "front": "Why water deeply instead of daily?",
+          "back": "Deep watering drives roots downward into reliably moist soil; shallow watering keeps roots weak near the surface."
+        },
+        {
+          "type": "flash",
+          "front": "What is 'full sun'?",
+          "back": "At least 6 hours of direct sunlight per day."
+        },
+        {
+          "type": "flash",
+          "front": "Why water in the morning?",
+          "back": "Leaves dry by evening, which prevents fungal disease; less water evaporates than at midday."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Two gardeners: one sprinkles 10 minutes daily, one soaks deeply twice a week. Whose plants survive a heatwave?",
+            "choices": [
+              "The deep waterer's",
+              "Neither \u2014 heat kills everything",
+              "The daily sprinkler's"
+            ],
+            "answer": 0,
+            "explain": "Deep roots reach cool, moist soil. Shallow roots sit in the layer that dries first."
+          },
+          {
+            "q": "What does 'partial shade' mean for a plant label?",
+            "choices": [
+              "Full sun all day",
+              "3-6 hours of direct sun daily",
+              "No direct sun at all"
+            ],
+            "answer": 1,
+            "explain": "Partial shade plants want some direct sun but shelter from harsh afternoon rays."
+          },
+          {
+            "q": "Your lettuce bolts (flowers) in July heat. What happened?",
+            "choices": [
+              "Heat triggered it to finish its life cycle early",
+              "It needs more water only",
+              "Lettuce always flowers in July"
+            ],
+            "answer": 0,
+            "explain": "Lettuce is a cool-season crop; heat signals it to bolt and turn bitter. Plant it for spring or fall."
+          },
+          {
+            "q": "Why mulch around plants?",
+            "choices": [
+              "Makes soil drain instantly",
+              "Holds moisture, cools soil, blocks weeds",
+              "Feeds leaves directly"
+            ],
+            "answer": 1,
+            "explain": "A 2-3 inch mulch layer is a blanket: it slows evaporation, steadies soil temperature, and smothers weeds."
+          },
+          {
+            "q": "Seedlings stretch tall and floppy on a windowsill. What's missing?",
+            "choices": [
+              "Water",
+              "Fertilizer",
+              "Enough light"
+            ],
+            "answer": 2,
+            "explain": "Leggy seedlings are reaching for more light. Move them closer to the window or add a grow light."
+          }
+        ]
+      }
+    },
+    {
+      "id": "garden-3",
+      "title": "Pest control",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Know your enemy",
+          "body": "The usual suspects: aphids (tiny sap-suckers clustering on new growth), slugs (night slime trails and chewed holes), cabbage worms (green caterpillars on brassicas), and spider mites (fine webbing, stippled leaves). Identify before you act \u2014 the fix depends on the pest."
+        },
+        {
+          "type": "text",
+          "title": "Start with the gentlest fix",
+          "body": "Integrated pest management means escalating slowly: handpick first, then blast aphids off with a hose, then insecticidal soap or neem oil, and only then stronger measures. Most infestations never need chemicals \u2014 they need attention."
+        },
+        {
+          "type": "tip",
+          "body": "Invite the predators: ladybugs devour aphids, lacewings eat mites, and birds patrol for caterpillars. A garden with flowers for beneficial insects has its own security team working for free."
+        },
+        {
+          "type": "example",
+          "body": "Aphids on your roses: blast them off with a strong jet of water, repeat every 2-3 days. Still there? Spray insecticidal soap in the evening (never in hot sun). Gone in a week, pollinators unharmed."
+        },
+        {
+          "type": "check",
+          "q": "You find clusters of tiny green insects on new rose shoots. What are they, and what's the first move?",
+          "choices": [
+            "Aphids \u2014 blast off with water",
+            "Spider mites \u2014 remove the plant",
+            "Caterpillars \u2014 spray pesticide"
+          ],
+          "answer": 0,
+          "explain": "Classic aphids. A water jet knocks most off; escalate only if they return."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are aphids?",
+          "back": "Tiny sap-sucking insects that cluster on new growth and buds."
+        },
+        {
+          "type": "flash",
+          "front": "What is neem oil?",
+          "back": "A plant-derived oil that disrupts insect feeding and reproduction \u2014 organic-approved."
+        },
+        {
+          "type": "flash",
+          "front": "Name a beneficial garden insect.",
+          "back": "Ladybug (eats aphids), lacewing (eats mites), or parasitic wasp."
+        },
+        {
+          "type": "flash",
+          "front": "What is companion planting?",
+          "back": "Growing plants together so one repels pests or helps the other \u2014 e.g. marigolds near tomatoes."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why handpick pests before reaching for sprays?",
+            "choices": [
+              "Sprays never work",
+              "Handpicking is faster for large gardens",
+              "It's targeted, free, and harms nothing else"
+            ],
+            "answer": 2,
+            "explain": "Handpicking removes only the pest. Sprays can kill beneficial insects and pollinators too."
+          },
+          {
+            "q": "Slugs shred your lettuce every night. What's an organic fix?",
+            "choices": [
+              "Spray the leaves with fertilizer",
+              "Water more at night",
+              "Beer traps or copper barriers"
+            ],
+            "answer": 2,
+            "explain": "Slugs drown in sunken beer traps and won't cross copper. Night watering just invites more slugs."
+          },
+          {
+            "q": "Marigolds planted around tomatoes reduce which problem?",
+            "choices": [
+              "Fungal wilt only",
+              "Root-knot nematodes and some insects",
+              "Bird damage"
+            ],
+            "answer": 1,
+            "explain": "Marigold roots release compounds that suppress nematodes, and their scent confuses some pests."
+          },
+          {
+            "q": "You spray insecticide at noon in full sun. What goes wrong?",
+            "choices": [
+              "Leaves burn and pollinators get hit",
+              "It only affects the soil",
+              "Nothing \u2014 noon is ideal"
+            ],
+            "answer": 0,
+            "explain": "Sprays + hot sun = leaf burn. Midday is also peak pollinator activity. Spray in the evening."
+          },
+          {
+            "q": "After wiping out every insect with broad spray, aphids return worse than before. Why?",
+            "choices": [
+              "Aphids are immune to spray",
+              "You also killed their predators",
+              "The plants attracted more"
+            ],
+            "answer": 1,
+            "explain": "Broad sprays kill ladybugs and lacewings too. Without predators, the fastest breeders \u2014 aphids \u2014 explode."
+          }
+        ]
+      }
+    }
+  ]
+}

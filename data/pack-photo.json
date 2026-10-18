@@ -1,0 +1,344 @@
+{
+  "id": "photo",
+  "title": "Photography",
+  "icon": "camera",
+  "color": "#5D6D7E",
+  "levels": [
+    {
+      "id": "photo-1",
+      "title": "Composition",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The rule of thirds",
+          "body": "Imagine your frame split into a 3×3 grid. Place key subjects along the lines or at their intersections instead of dead center. Off-center instantly feels more dynamic and intentional."
+        },
+        {
+          "type": "text",
+          "title": "Leading lines pull the eye",
+          "body": "Roads, fences, rivers, shadows — any line that guides the viewer toward your subject adds depth and direction. Find a line in the scene, then put your subject where it ends."
+        },
+        {
+          "type": "example",
+          "body": "A lone tree centered in the frame: fine, forgettable. The same tree on a third-line intersection, with a dirt road leading to it: suddenly it's a photograph. Nothing changed except placement."
+        },
+        {
+          "type": "tip",
+          "body": "Turn on your camera's grid overlay — every phone has it in settings. Compose with the grid for a week and the thirds become instinct. Then you can break the rule on purpose."
+        },
+        {
+          "type": "check",
+          "q": "Where should the subject go under the rule of thirds?",
+          "choices": [
+            "Along the grid lines or intersections",
+            "Always dead center",
+            "In the extreme corner"
+          ],
+          "answer": 0,
+          "explain": "The four intersection points are the power positions. Centering works for symmetry, but thirds create tension and balance."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the rule of thirds?",
+          "back": "Divide the frame into a 3×3 grid; place subjects on the lines or intersections, not centered."
+        },
+        {
+          "type": "flash",
+          "front": "What are leading lines?",
+          "back": "Lines in the scene — roads, rails, shores — that guide the viewer's eye toward the subject."
+        },
+        {
+          "type": "flash",
+          "front": "What is negative space?",
+          "back": "Empty areas around the subject that give it room to breathe and add drama."
+        },
+        {
+          "type": "flash",
+          "front": "Why shoot from a different angle?",
+          "back": "Eye level is how everyone sees the world. Crouching low or climbing high makes ordinary subjects look extraordinary."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Your horizon sits dead center and the shot feels flat. Fix?",
+            "choices": [
+              "Move it to the upper or lower third",
+              "Add more sky",
+              "Zoom in tighter"
+            ],
+            "answer": 0,
+            "explain": "A centered horizon splits the image in two and kills energy. Give two-thirds of the frame to whichever half is more interesting."
+          },
+          {
+            "q": "What's the fastest way to add depth?",
+            "choices": [
+              "Include a foreground element or leading line",
+              "Buy a longer lens",
+              "Shoot only at noon"
+            ],
+            "answer": 0,
+            "explain": "Layers — foreground, subject, background — create depth no gear can fake. A branch in the corner beats a new lens."
+          },
+          {
+            "q": "Negative space is useful because…",
+            "choices": [
+              "It isolates the subject and adds mood",
+              "It wastes frame space",
+              "Cameras require it"
+            ],
+            "answer": 0,
+            "explain": "Emptiness is a compositional tool. A tiny subject in vast sky feels lonely; the same subject crammed edge-to-edge feels chaotic."
+          },
+          {
+            "q": "A fence runs diagonally toward a barn. The fence is a…",
+            "choices": [
+              "Leading line",
+              "Distraction to clone out",
+              "Rule-of-thirds violation"
+            ],
+            "answer": 0,
+            "explain": "Diagonal lines are the strongest guides — they pull the eye straight to wherever they converge."
+          },
+          {
+            "q": "When is centering the subject the right call?",
+            "choices": [
+              "For symmetry — reflections, architecture",
+              "Never, it's always wrong",
+              "Only for selfies"
+            ],
+            "answer": 0,
+            "explain": "Rules serve the photo, not the reverse. Perfect symmetry — a reflection, a doorway — begs to be centered."
+          }
+        ]
+      }
+    },
+    {
+      "id": "photo-2",
+      "title": "Light",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Golden hour is cheat mode",
+          "body": "The hour after sunrise and before sunset gives warm, soft, directional light. Long shadows, glowing skin tones, dramatic skies — the same scene looks expensive, for free."
+        },
+        {
+          "type": "text",
+          "title": "Midday sun is harsh",
+          "body": "Overhead light at noon carves hard shadows and makes people squint. If you must shoot midday, find open shade — building shadows, big trees — for soft, even light."
+        },
+        {
+          "type": "example",
+          "body": "Same portrait, two times of day. Noon: raccoon-eye shadows under the brows. 6pm golden hour: warm glow, soft shadows, catchlights in the eyes. The camera didn't change — the sun's angle did."
+        },
+        {
+          "type": "tip",
+          "body": "Backlight on purpose: put the sun behind your subject for a glowing rim around hair and shoulders. Tap your phone screen on their face so the camera exposes for them, not the sky."
+        },
+        {
+          "type": "check",
+          "q": "It's noon, harsh sun, no choice. Best move?",
+          "choices": [
+            "Move the subject into open shade",
+            "Shoot directly into the sun",
+            "Use the flash on full blast"
+          ],
+          "answer": 0,
+          "explain": "Open shade turns the whole sky into a giant softbox — even, flattering light with no hard shadows."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "When is golden hour?",
+          "back": "Roughly the first hour after sunrise and the last hour before sunset — warm, soft, low-angled light."
+        },
+        {
+          "type": "flash",
+          "front": "Why avoid midday sun for portraits?",
+          "back": "Overhead light carves harsh shadows under eyes and noses, and makes people squint."
+        },
+        {
+          "type": "flash",
+          "front": "What is backlighting?",
+          "back": "Light coming from behind the subject, creating a glowing rim — expose for the subject's face."
+        },
+        {
+          "type": "flash",
+          "front": "What does 'soft light' mean?",
+          "back": "Diffused light with gentle shadow transitions — from shade, clouds, or large nearby surfaces."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "You want dreamy warm portraits. When do you shoot?",
+            "choices": [
+              "Golden hour",
+              "High noon",
+              "Midnight"
+            ],
+            "answer": 0,
+            "explain": "Low sun means warm color, soft shadows, and flattering direction. It's the most forgiving light that exists."
+          },
+          {
+            "q": "Clouds roll in and the light goes flat and soft. This is…",
+            "choices": [
+              "Great for even, shadowless light",
+              "A ruined shoot",
+              "Only good for black and white"
+            ],
+            "answer": 0,
+            "explain": "Overcast skies are nature's softbox. Colors get richer, shadows vanish — ideal for flowers, faces, and details."
+          },
+          {
+            "q": "Your subject's face is dark against a bright sunset. Fix?",
+            "choices": [
+              "Tap to expose for the face, or add fill light",
+              "Give up and shoot the sunset alone",
+              "Turn the subject around"
+            ],
+            "answer": 0,
+            "explain": "Expose for what matters. Tapping the face tells the camera to prioritize it; a reflector or fill flash lifts the shadows."
+          },
+          {
+            "q": "Side light is prized because it…",
+            "choices": [
+              "Reveals texture and shape through shadows",
+              "Eliminates all shadows",
+              "Only works indoors"
+            ],
+            "answer": 0,
+            "explain": "Light raking across a surface shows every ripple and grain. Front light flattens; side light sculpts."
+          },
+          {
+            "q": "Blue hour is…",
+            "choices": [
+              "The twilight after sunset with deep blue skies",
+              "A camera white-balance error",
+              "The hour when flash is mandatory"
+            ],
+            "answer": 0,
+            "explain": "Those 20–30 minutes after sunset: the sky goes cobalt, city lights pop on — prime time for skylines."
+          }
+        ]
+      }
+    },
+    {
+      "id": "photo-3",
+      "title": "Camera settings",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The exposure triangle",
+          "body": "Three settings control brightness: aperture (the lens opening), shutter speed (how long it stays open), and ISO (sensor sensitivity). Change one and the others must compensate — it's a three-way seesaw."
+        },
+        {
+          "type": "text",
+          "title": "Aperture = depth of field",
+          "body": "Small f-number (f/1.8) means a wide opening and blurry backgrounds — perfect for portraits. Big f-number (f/11) means a narrow opening and everything sharp — what landscapes want. The numbers feel backwards until they click."
+        },
+        {
+          "type": "example",
+          "body": "Portrait at f/1.8: the subject's eyes are razor sharp, the background melted into creamy blur. Same scene at f/11: the fence three meters back is sharp too. One dial, two completely different photos."
+        },
+        {
+          "type": "tip",
+          "body": "Shutter speed freezes or blurs motion: 1/500s freezes a runner, 1/30s turns a waterfall to silk. Rule of thumb: stay faster than 1/60s handheld, or your own shake blurs everything."
+        },
+        {
+          "type": "check",
+          "q": "You want a blurry background behind your subject. Which aperture?",
+          "choices": [
+            "f/1.8",
+            "f/11",
+            "f/16"
+          ],
+          "answer": 0,
+          "explain": "Small f-number = wide aperture = shallow depth of field. f/1.8 melts backgrounds; f/11 and f/16 keep nearly everything sharp."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are the three exposure settings?",
+          "back": "Aperture (lens opening), shutter speed (time open), ISO (sensor sensitivity)."
+        },
+        {
+          "type": "flash",
+          "front": "What does a small f-number like f/1.8 do?",
+          "back": "Opens the aperture wide: more light, shallow depth of field, blurry backgrounds."
+        },
+        {
+          "type": "flash",
+          "front": "What shutter speed freezes action?",
+          "back": "Fast ones — 1/500s or quicker. Slow speeds like 1/30s blur motion instead."
+        },
+        {
+          "type": "flash",
+          "front": "What is ISO noise?",
+          "back": "Grainy speckles that appear at high ISO. Raise ISO only when you need the brightness."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Your landscape has a soft foreground and background. Fix?",
+            "choices": [
+              "Use a smaller aperture like f/11",
+              "Use f/1.8",
+              "Raise ISO to max"
+            ],
+            "answer": 0,
+            "explain": "A narrow aperture (big f-number) deepens the sharp zone from near to far — exactly what landscapes want."
+          },
+          {
+            "q": "Indoor photo too dark at f/2.8, 1/60s, ISO 400. Brighten without blur?",
+            "choices": [
+              "Raise ISO and accept some noise",
+              "Slow the shutter to 1 second handheld",
+              "Close the aperture to f/8"
+            ],
+            "answer": 0,
+            "explain": "1/60s is already the handheld floor and f/2.8 is wide open — ISO is the only dial left. Noise beats a black or blurry frame."
+          },
+          {
+            "q": "What does ISO 3200 vs ISO 100 mean?",
+            "choices": [
+              "32x more sensitive, but much noisier",
+              "32x sharper",
+              "No practical difference"
+            ],
+            "answer": 0,
+            "explain": "Each ISO doubling is one stop more sensitivity. 100 to 3200 is five stops (32x) — bright in the dark, grainy everywhere."
+          },
+          {
+            "q": "You want silky waterfall blur. Settings?",
+            "choices": [
+              "Slow shutter (1/15s or slower) + tripod",
+              "Fastest shutter + widest aperture",
+              "Maximum ISO"
+            ],
+            "answer": 0,
+            "explain": "Long exposures smear motion into silk — but any handshake smears everything too, so the tripod is non-negotiable."
+          },
+          {
+            "q": "Aperture, shutter, and ISO are linked because…",
+            "choices": [
+              "They all control exposure — change one, compensate with another",
+              "Cameras force you to use all three",
+              "They're the same setting with three names"
+            ],
+            "answer": 0,
+            "explain": "It's a triangle: widen the aperture and you must quicken the shutter or drop ISO to hold the same brightness. Every exposure is a three-way trade."
+          }
+        ]
+      }
+    }
+  ]
+}

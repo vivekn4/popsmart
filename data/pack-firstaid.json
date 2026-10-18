@@ -1,0 +1,359 @@
+{
+  "id": "firstaid",
+  "title": "First Aid",
+  "icon": "cross",
+  "color": "#C0392B",
+  "levels": [
+    {
+      "id": "firstaid-1",
+      "title": "CPR basics",
+      "cards": [
+        {
+          "type": "text",
+          "title": "When CPR matters",
+          "body": "CPR is for someone in cardiac arrest: collapsed, unresponsive, and not breathing normally. Gasping or agonal breaths don't count as breathing. If they're awake and talking, they don't need CPR."
+        },
+        {
+          "type": "text",
+          "title": "Call first, then act",
+          "body": "Before touching the chest, shout for help and call 911 (or your local emergency number). Send someone to fetch an AED, the portable defibrillator found in malls, gyms, and airports. An AED talks you through every step."
+        },
+        {
+          "type": "tip",
+          "body": "This pack builds awareness, not certification. It supplements real training — it never replaces it. Take a certified first aid/CPR course from the Red Cross or Heart & Stroke when you can. Skills fade; refreshers matter."
+        },
+        {
+          "type": "text",
+          "title": "Hands, depth, rhythm",
+          "body": "Place the heel of one hand on the center of the chest, other hand on top, fingers interlaced. Push hard and fast: 5 to 6 cm deep (about 2 inches), at 100 to 120 compressions per minute. Let the chest fully recoil between pushes."
+        },
+        {
+          "type": "example",
+          "body": "The Bee Gees trick: hum 'Stayin' Alive' in your head while you push. Its beat sits around 103 per minute — right in the target zone. Compressions to that rhythm keep your pace steady when adrenaline is screaming at you to go faster."
+        },
+        {
+          "type": "check",
+          "q": "Where do your hands go for adult CPR?",
+          "choices": [
+            "Center of the chest",
+            "Over the stomach",
+            "On the left side of the ribs"
+          ],
+          "answer": 0,
+          "explain": "Compressions work by squeezing the heart between the breastbone and spine, so the heel of your hand belongs on the center of the chest. The stomach and side ribs don't move blood."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What rate for chest compressions?",
+          "back": "100 to 120 per minute — 'Stayin' Alive' tempo."
+        },
+        {
+          "type": "flash",
+          "front": "How deep for adult compressions?",
+          "back": "5 to 6 cm (about 2 inches), letting the chest fully recoil."
+        },
+        {
+          "type": "flash",
+          "front": "What do you do before starting CPR?",
+          "back": "Call 911 and send someone for an AED."
+        },
+        {
+          "type": "flash",
+          "front": "What is an AED?",
+          "back": "An automated external defibrillator — a portable device that analyzes the heart rhythm and talks you through delivering a shock if needed."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Someone collapses and isn't breathing normally. What's your first move?",
+            "choices": [
+              "Call 911 and get an AED",
+              "Start compressions immediately",
+              "Check their wallet for ID"
+            ],
+            "answer": 0,
+            "explain": "Calling for help and an AED comes first — you need backup and the defibrillator on the way before you start compressions."
+          },
+          {
+            "q": "How deep should adult chest compressions be?",
+            "choices": [
+              "5 to 6 cm",
+              "1 to 2 cm",
+              "As deep as you possibly can"
+            ],
+            "answer": 0,
+            "explain": "5 to 6 cm moves blood effectively. Shallower compressions don't circulate; deeper risks injury without added benefit."
+          },
+          {
+            "q": "What compression rate should you aim for?",
+            "choices": [
+              "100 to 120 per minute",
+              "60 per minute",
+              "As fast as humanly possible"
+            ],
+            "answer": 0,
+            "explain": "100-120 per minute is the evidence-based range. Slower doesn't circulate blood; uncontrolled speed sacrifices depth and recoil."
+          },
+          {
+            "q": "Between compressions, the chest must...",
+            "choices": [
+              "Fully recoil",
+              "Stay pressed down",
+              "Be checked for a pulse"
+            ],
+            "answer": 0,
+            "explain": "Full recoil lets the heart refill with blood. Leaning on the chest between pushes chokes off circulation."
+          },
+          {
+            "q": "The AED arrives. What do you do?",
+            "choices": [
+              "Turn it on and follow its voice prompts",
+              "Wait for paramedics to use it",
+              "Keep doing CPR and ignore it"
+            ],
+            "answer": 0,
+            "explain": "AEDs are designed for untrained bystanders — power it on and it literally talks you through pad placement and shocks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "firstaid-2",
+      "title": "Wounds & bleeding",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Pressure stops most bleeding",
+          "body": "For a bleeding wound, press down firmly with a clean cloth or bandage and don't lift it to peek — peeking breaks the clot that's forming. Hold steady pressure for several minutes. Most everyday bleeding stops this way."
+        },
+        {
+          "type": "text",
+          "title": "What NOT to do",
+          "body": "Don't remove an embedded object (a knife, glass shard) — it may be plugging the wound. Don't apply a tourniquet for minor cuts. Don't pour alcohol or peroxide into the wound; it damages tissue. Clean around it, not inside it."
+        },
+        {
+          "type": "tip",
+          "body": "Barrier first: if you have gloves, put them on. No gloves? A plastic bag over your hand works. Protecting yourself from someone else's blood is part of good first aid, not selfishness."
+        },
+        {
+          "type": "example",
+          "body": "Kitchen knife slips and your finger is bleeding steadily. Grab a clean towel, fold it into a pad, press it hard over the cut, and keep pressing. Elevate the hand above heart level while you hold. After 10 minutes of steady pressure, ease off and check — if it's still flowing, keep pressure and get medical help."
+        },
+        {
+          "type": "text",
+          "title": "When to get help",
+          "body": "Call emergency services or head to urgent care for: bleeding that won't stop after 10 minutes of pressure, deep or gaping cuts, wounds on the face, or any cut from a rusty/dirty object if tetanus shots aren't current."
+        },
+        {
+          "type": "check",
+          "q": "A wound is bleeding. What's the first thing you do?",
+          "choices": [
+            "Press firmly with a clean cloth",
+            "Rinse it under hot water",
+            "Wrap it loosely and wait"
+          ],
+          "answer": 0,
+          "explain": "Direct, firm pressure is the first and most effective step. Rinsing a actively bleeding wound washes away forming clots; loose wrapping does nothing."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What's the first step for a bleeding wound?",
+          "back": "Firm, direct pressure with a clean cloth — and don't peek."
+        },
+        {
+          "type": "flash",
+          "front": "An object is stuck in the wound. Remove it?",
+          "back": "No — leave it in place. It may be plugging the bleed. Stabilize it and get help."
+        },
+        {
+          "type": "flash",
+          "front": "How long before seeking help for unstoppable bleeding?",
+          "back": "If it won't stop after about 10 minutes of steady pressure, get medical help."
+        },
+        {
+          "type": "flash",
+          "front": "Should you pour alcohol into a wound?",
+          "back": "No — it damages tissue. Clean around the wound, not inside it."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why shouldn't you lift the cloth to check the wound?",
+            "choices": [
+              "It breaks the clot that's forming",
+              "It lets air infect the blood",
+              "It makes the person panic"
+            ],
+            "answer": 0,
+            "explain": "Clotting takes uninterrupted minutes. Every peek restarts the clock."
+          },
+          {
+            "q": "A piece of glass is embedded in someone's arm. You should...",
+            "choices": [
+              "Leave it and stabilize the area",
+              "Pull it out quickly",
+              "Push it deeper to stop bleeding"
+            ],
+            "answer": 1,
+            "explain": "Removing it can release the plug it formed and cause worse bleeding. Stabilize and let professionals handle it."
+          },
+          {
+            "q": "Which wounds need professional care?",
+            "choices": [
+              "Bleeding that won't stop after 10 minutes of pressure",
+              "A small paper cut",
+              "A scraped knee that stopped bleeding"
+            ],
+            "answer": 0,
+            "explain": "Persistent bleeding, deep/gaping cuts, and face wounds need medical attention. Minor scrapes just need cleaning and a bandage."
+          },
+          {
+            "q": "Elevating a bleeding limb helps because...",
+            "choices": [
+              "It slows blood flow to the area",
+              "It numbs the pain",
+              "It keeps the person calm"
+            ],
+            "answer": 0,
+            "explain": "Raising the wound above heart level reduces blood pressure at the site, helping clots form."
+          },
+          {
+            "q": "No gloves available and someone's bleeding. You can...",
+            "choices": [
+              "Use a plastic bag as a barrier",
+              "Work bare-handed without worry",
+              "Wait for someone else"
+            ],
+            "answer": 0,
+            "explain": "Any clean barrier between you and blood is better than none. Bloodborne safety applies to everyone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "firstaid-3",
+      "title": "Choking & burns",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Spotting choking",
+          "body": "Real choking is silent. The universal sign is hands clutching the throat. If they can't speak, cough, or breathe, act fast. If they're coughing forcefully, encourage it — a strong cough is the body's own fix, don't interfere."
+        },
+        {
+          "type": "text",
+          "title": "Abdominal thrusts",
+          "body": "Stand behind them, wrap your arms around the waist, make a fist just above the navel, grab it with your other hand, and pull sharply inward and upward. Repeat until the object pops out or they go limp — then start CPR and call 911."
+        },
+        {
+          "type": "text",
+          "title": "Burns: cool, don't smear",
+          "body": "For a burn, cool it under cool running water for at least 10 minutes, as soon as possible. Don't use ice, butter, toothpaste, or oils — they trap heat or introduce infection. Remove jewelry near the burn before swelling starts."
+        },
+        {
+          "type": "tip",
+          "body": "Call 911 for burns that: cover a large area, are on the face/hands/feet/joints, look white or charred, or were caused by chemicals or electricity. When in doubt, call — dispatchers would rather hear from you."
+        },
+        {
+          "type": "example",
+          "body": "Someone grabs a hot pan handle. Get the hand under cool (not ice-cold) tap water immediately and keep it there a full 10 minutes — set a timer, because 10 minutes feels endless. Then loosely cover with cling film or a clean non-fluffy cloth. If blisters form, don't pop them; they're nature's bandage."
+        },
+        {
+          "type": "check",
+          "q": "Someone is choking silently and can't breathe. You should...",
+          "choices": [
+            "Give abdominal thrusts",
+            "Offer them water",
+            "Tell them to lie down"
+          ],
+          "answer": 0,
+          "explain": "Silent choking with no air movement needs abdominal thrusts immediately. Water can't pass a blocked airway, and lying down doesn't help."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What's the universal sign of choking?",
+          "back": "Hands clutching the throat, unable to speak or cough."
+        },
+        {
+          "type": "flash",
+          "front": "Someone is coughing hard while choking. Intervene?",
+          "back": "No — encourage the cough. A forceful cough can clear it on its own."
+        },
+        {
+          "type": "flash",
+          "front": "First step for a burn?",
+          "back": "Cool under running water for at least 10 minutes, ASAP."
+        },
+        {
+          "type": "flash",
+          "front": "Should you put ice or butter on a burn?",
+          "back": "No — both trap heat or risk infection. Cool running water only."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "How do you tell real choking from just coughing on food?",
+            "choices": [
+              "They can't speak, cough, or breathe",
+              "They're making loud noises",
+              "They're drinking water"
+            ],
+            "answer": 0,
+            "explain": "A strong cough means air is moving — encourage it. Silence plus the throat-clutch means the airway is blocked."
+          },
+          {
+            "q": "Where does your fist go for abdominal thrusts?",
+            "choices": [
+              "Just above the navel",
+              "On the chest",
+              "On the lower back"
+            ],
+            "answer": 0,
+            "explain": "Above the navel and below the ribs — the inward-upward thrust pushes air up to expel the object."
+          },
+          {
+            "q": "A burn should be cooled for at least...",
+            "choices": [
+              "10 minutes",
+              "30 seconds",
+              "Until it stops hurting"
+            ],
+            "answer": 0,
+            "explain": "Ten full minutes of cool running water limits tissue damage. Brief cooling barely helps."
+          },
+          {
+            "q": "Which burn needs emergency care?",
+            "choices": [
+              "A burn covering the whole hand",
+              "A small red mark from a spark",
+              "A mild sunburn"
+            ],
+            "answer": 0,
+            "explain": "Burns on hands, face, feet, or joints — or large/deep/white ones — need professionals."
+          },
+          {
+            "q": "Blisters form on a burn. You should...",
+            "choices": [
+              "Leave them intact",
+              "Pop them to drain fluid",
+              "Peel the skin off"
+            ],
+            "answer": 0,
+            "explain": "Intact blisters protect against infection. Cover loosely and let the body handle it."
+          }
+        ]
+      }
+    }
+  ]
+}

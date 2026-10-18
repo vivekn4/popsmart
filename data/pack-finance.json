@@ -1,0 +1,344 @@
+{
+  "id": "finance",
+  "title": "Personal Finance",
+  "icon": "coin",
+  "color": "#2ECC71",
+  "levels": [
+    {
+      "id": "finance-1",
+      "title": "Budgeting",
+      "cards": [
+        {
+          "type": "text",
+          "title": "A budget is a plan, not a punishment",
+          "body": "A budget just means deciding where your money goes before it disappears. Every dollar gets a job: spend, save, or invest. Dollars with no job vanish on impulse buys."
+        },
+        {
+          "type": "text",
+          "title": "The 50/30/20 rule",
+          "body": "Split take-home pay into 50% needs (rent, groceries, transport), 30% wants (eating out, hobbies), and 20% savings plus debt payoff. It's a starting template, not a law — adjust the dials to your life."
+        },
+        {
+          "type": "example",
+          "body": "Maya takes home $2,400 a month. Needs: $1,200 (rent $900, groceries $200, bus pass $100). Wants: $720. Future: $480 straight to savings. Every dollar has an address."
+        },
+        {
+          "type": "tip",
+          "body": "Track every dollar for 30 days before judging yourself. Most people find 10–15% leaking to forgotten subscriptions and snacks. You can't fix what you can't see."
+        },
+        {
+          "type": "check",
+          "q": "You take home $3,000/month. Under 50/30/20, how much goes to savings?",
+          "choices": [
+            "$600",
+            "$900",
+            "$1,500"
+          ],
+          "answer": 0,
+          "explain": "20% of $3,000 = $600. That's the pay-yourself-first slice — needs get $1,500, wants get $900."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the 50/30/20 rule?",
+          "back": "50% needs, 30% wants, 20% savings and debt payoff — a starter template for splitting take-home pay."
+        },
+        {
+          "type": "flash",
+          "front": "Need vs. want?",
+          "back": "Needs keep life running: rent, food, transport. Wants make it fun: dining out, games. The line moves per person — be honest with yourself."
+        },
+        {
+          "type": "flash",
+          "front": "What does 'pay yourself first' mean?",
+          "back": "Move savings out the moment you're paid, before spending. What you don't see, you won't miss."
+        },
+        {
+          "type": "flash",
+          "front": "Why track spending for 30 days?",
+          "back": "To find the leaks — forgotten subscriptions and impulse buys most people underestimate by 10–15%."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Needs now eat 60% of your pay after a rent hike. What do you do?",
+            "choices": [
+              "Trim wants and rebalance",
+              "Put rent on a credit card",
+              "Stop saving forever"
+            ],
+            "answer": 0,
+            "explain": "Ratios are guides, not cages. When needs swell, shrink wants first and protect at least some savings."
+          },
+          {
+            "q": "Which of these is a need?",
+            "choices": [
+              "Bus pass to get to work",
+              "Concert tickets",
+              "New sneakers when the old ones are fine"
+            ],
+            "answer": 0,
+            "explain": "If skipping it breaks your ability to live or work, it's a need. Everything else is a want — even fun, legitimate ones."
+          },
+          {
+            "q": "You find $200/month in forgotten subscriptions. Best move?",
+            "choices": [
+              "Cancel them and redirect it to savings",
+              "Find new subscriptions to replace them",
+              "Ignore it — it's only $200"
+            ],
+            "answer": 0,
+            "explain": "$200 a month is $2,400 a year. Redirecting found money to savings is the highest-return 'raise' you'll ever give yourself."
+          },
+          {
+            "q": "Budgets most often fail because…",
+            "choices": [
+              "They're unrealistic and abandoned by week two",
+              "Math is too hard",
+              "Banks forbid budgets"
+            ],
+            "answer": 0,
+            "explain": "Brutal, joyless budgets die fast. Build in guilt-free fun money and the plan survives."
+          },
+          {
+            "q": "Take-home $1,800. Under 50/30/20, wants = ?",
+            "choices": [
+              "$540",
+              "$360",
+              "$900"
+            ],
+            "answer": 0,
+            "explain": "30% of $1,800 = $540. Needs get $900, savings gets $360."
+          }
+        ]
+      }
+    },
+    {
+      "id": "finance-2",
+      "title": "Saving & debt",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Pay yourself first, automatically",
+          "body": "Willpower is unreliable; automation isn't. Set a transfer that moves money to savings the day you're paid. You adapt to what's left, and saving happens whether you feel like it or not."
+        },
+        {
+          "type": "text",
+          "title": "Kill high-interest debt first",
+          "body": "Credit card debt at 20%+ grows faster than any safe investment earns. The avalanche method: pay minimums everywhere, then throw every extra dollar at the highest-rate balance first."
+        },
+        {
+          "type": "example",
+          "body": "$3,000 on a card at 22% with $60 minimum payments takes 7+ years and costs about $2,800 in interest. Paying $200/month clears it in 18 months for about $550 in interest. Same debt, $2,250 difference — from the payment size alone."
+        },
+        {
+          "type": "tip",
+          "body": "Build a $500–$1,000 mini emergency fund before attacking debt aggressively. Without it, every car repair lands right back on the card and you're running in circles."
+        },
+        {
+          "type": "check",
+          "q": "Two debts: $800 at 24% and $2,000 at 8%. Avalanche says attack which first?",
+          "choices": [
+            "The $800 at 24%",
+            "The $2,000 at 8%",
+            "Both equally"
+          ],
+          "answer": 0,
+          "explain": "Avalanche targets the highest rate first — 24% costs far more per dollar than 8%, regardless of balance size."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the avalanche method?",
+          "back": "Pay minimums on all debts, send every extra dollar to the highest-interest balance first. The mathematically cheapest way out."
+        },
+        {
+          "type": "flash",
+          "front": "Why automate savings?",
+          "back": "Willpower fades; automatic transfers happen regardless. You spend what's left instead of saving what's left."
+        },
+        {
+          "type": "flash",
+          "front": "What is an emergency fund for?",
+          "back": "Surprise expenses — repairs, job loss — so they don't land on high-interest credit cards."
+        },
+        {
+          "type": "flash",
+          "front": "Why are minimum payments a trap?",
+          "back": "They're calibrated to stretch repayment for years, maximizing the interest you pay."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "$500 extra this month. Card A: $1,200 at 21%. Card B: $900 at 12%. Avalanche says?",
+            "choices": [
+              "Extra $500 to Card A",
+              "Split it evenly",
+              "Extra $500 to Card B"
+            ],
+            "answer": 0,
+            "explain": "Highest rate first, always, under avalanche. Card A's 21% bleeds faster per dollar than Card B's 12%."
+          },
+          {
+            "q": "What's a reasonable starter emergency fund?",
+            "choices": [
+              "$500–$1,000",
+              "$50,000",
+              "$0 — the credit card IS the fund"
+            ],
+            "answer": 0,
+            "explain": "A small buffer breaks the borrow-for-emergencies cycle. Grow it to 3–6 months of expenses later."
+          },
+          {
+            "q": "Savings earn 4%, your card charges 22%. Extra $1,000 goes…",
+            "choices": [
+              "Toward the card debt",
+              "Into savings",
+              "Under the mattress"
+            ],
+            "answer": 0,
+            "explain": "A 22% guaranteed 'return' from killing debt crushes 4% savings interest. Pay the expensive debt first."
+          },
+          {
+            "q": "What happens if you only ever pay minimums?",
+            "choices": [
+              "You pay far more interest over far more years",
+              "The debt vanishes at the same speed",
+              "Your credit score instantly maxes out"
+            ],
+            "answer": 0,
+            "explain": "Minimums are calibrated to keep you paying mostly interest. Bigger payments attack principal."
+          },
+          {
+            "q": "Best day for the automatic savings transfer?",
+            "choices": [
+              "Payday — before you can spend it",
+              "End of month, if anything's left",
+              "Never — do it manually when inspired"
+            ],
+            "answer": 0,
+            "explain": "Pay yourself first means first. End-of-month leftovers are a myth, and inspiration is unreliable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "finance-3",
+      "title": "Investing basics",
+      "cards": [
+        {
+          "type": "text",
+          "title": "Compound interest is a snowball",
+          "body": "Returns earn returns. $200 a month at roughly 7% average annual growth means $24,000 contributed over 10 years becomes about $34,000 in value — the extra $10,000 is growth earning its own growth."
+        },
+        {
+          "type": "text",
+          "title": "Stocks vs. bonds in one breath",
+          "body": "Stocks are tiny ownership slices of companies — higher growth, bumpier ride. Bonds are IOUs that pay steady interest — calmer, slower. Young investors usually lean toward stocks; the mix gets calmer with age."
+        },
+        {
+          "type": "example",
+          "body": "Two friends invest $5,000 once at 7% average. Ana starts at 25, Ben at 35. At 65: Ana has about $74,000, Ben about $38,000. Same money, same return — ten extra years nearly doubled the outcome. Time is the real asset."
+        },
+        {
+          "type": "tip",
+          "body": "Index funds bundle hundreds of stocks into one cheap package — instant diversification without picking winners. Low fees matter more than clever picks: a 1% fee can eat a third of your returns over decades."
+        },
+        {
+          "type": "check",
+          "q": "Why do low fees matter so much?",
+          "choices": [
+            "They compound against you for decades",
+            "They're illegal",
+            "They only apply to rich investors"
+          ],
+          "answer": 0,
+          "explain": "A 1% annual fee sounds small, but over 30+ years it can devour roughly a third of your total gains. Fees compound too — against you."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is compound interest?",
+          "back": "Earning returns on your returns — growth that snowballs because each year's gains start earning too."
+        },
+        {
+          "type": "flash",
+          "front": "What is an index fund?",
+          "back": "One fund holding hundreds of stocks: instant diversification at very low fees."
+        },
+        {
+          "type": "flash",
+          "front": "Stocks vs. bonds?",
+          "back": "Stocks = company ownership, higher growth, more volatility. Bonds = loans paying steady interest, calmer and slower."
+        },
+        {
+          "type": "flash",
+          "front": "Why start investing early?",
+          "back": "Time amplifies compounding. Small amounts invested young can outgrow larger amounts started late."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "What does diversification protect you from?",
+            "choices": [
+              "One bad company tanking everything",
+              "All market risk disappearing",
+              "Paying any taxes"
+            ],
+            "answer": 0,
+            "explain": "Spreading across many holdings means one flop can't sink you. It can't remove market-wide risk — just single-company risk."
+          },
+          {
+            "q": "$1,000 at 10% for a year, then the $1,100 compounds another year at 10%. Total?",
+            "choices": [
+              "$1,210",
+              "$1,200",
+              "$1,100"
+            ],
+            "answer": 0,
+            "explain": "Year 1: $1,100. Year 2: 10% of $1,100 = $110, total $1,210. That extra $10 is interest earning interest."
+          },
+          {
+            "q": "Which typically has the highest long-term returns?",
+            "choices": [
+              "Stocks",
+              "Savings accounts",
+              "Cash under the mattress"
+            ],
+            "answer": 0,
+            "explain": "Stocks have historically returned around 7–10% annually over long periods — with plenty of scary dips along the way."
+          },
+          {
+            "q": "A fund charges 1.5% yearly vs. a similar one at 0.1%. Over 30 years…",
+            "choices": [
+              "The expensive one can cost roughly a third of your gains",
+              "The difference is negligible",
+              "The expensive one must perform better"
+            ],
+            "answer": 0,
+            "explain": "Fees compound relentlessly. Higher fees don't buy higher returns — they just guarantee a bigger cut for the fund."
+          },
+          {
+            "q": "Best first investing move for a beginner?",
+            "choices": [
+              "A low-fee diversified index fund, held long-term",
+              "Betting everything on one hot stock tip",
+              "Timing the market perfectly"
+            ],
+            "answer": 0,
+            "explain": "Boring wins: diversify cheaply, keep buying, don't panic-sell. Stock tips and market timing are how beginners donate money."
+          }
+        ]
+      }
+    }
+  ]
+}

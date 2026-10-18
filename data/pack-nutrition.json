@@ -1,0 +1,360 @@
+{
+  "id": "nutrition",
+  "title": "Nutrition",
+  "icon": "apple",
+  "color": "#58D68D",
+  "levels": [
+    {
+      "id": "nutrition-1",
+      "title": "Macros",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The big three",
+          "body": "Every food you eat is mostly some mix of three macronutrients: protein, carbohydrates, and fat. They each do different jobs, and your body needs all three. No single macro is the villain — balance is the whole game."
+        },
+        {
+          "type": "text",
+          "title": "Protein: the builder",
+          "body": "Protein repairs muscle, skin, hair, and nails, and it keeps you full longer than carbs. Aim for a palm-sized portion at each meal: chicken, fish, eggs, beans, lentils, tofu, Greek yogurt. Most adults do well around 1.2 to 2 grams per kilo of body weight daily."
+        },
+        {
+          "type": "text",
+          "title": "Carbs: the fuel",
+          "body": "Carbohydrates are your body's preferred energy source, especially for your brain. Whole versions — oats, rice, potatoes, fruit — come with fiber that slows digestion and steadies energy. Refined ones — soda, candy — spike and crash you."
+        },
+        {
+          "type": "text",
+          "title": "Fat: not the enemy",
+          "body": "Fat helps you absorb vitamins A, D, E, and K, protects organs, and makes food satisfying. Favor unsaturated sources: olive oil, nuts, avocado, fatty fish. Trans fats (partially hydrogenated oils) are the ones worth avoiding."
+        },
+        {
+          "type": "tip",
+          "body": "The hand method, no scale needed: a palm of protein, a fist of vegetables, a cupped hand of carbs, a thumb of fats. It's rough, it's portable, and it beats guessing."
+        },
+        {
+          "type": "check",
+          "q": "Which macro is mainly responsible for building and repairing muscle?",
+          "choices": [
+            "Protein",
+            "Carbohydrates",
+            "Fat"
+          ],
+          "answer": 0,
+          "explain": "Protein supplies the amino acids your body uses to build and repair tissue. Carbs fuel you and fats support hormones and vitamins, but building is protein's job."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What are the three macronutrients?",
+          "back": "Protein, carbohydrates, and fat."
+        },
+        {
+          "type": "flash",
+          "front": "Which macro keeps you fullest the longest?",
+          "back": "Protein — it digests slowly and steadies hunger."
+        },
+        {
+          "type": "flash",
+          "front": "Name a whole-carb and a refined-carb example.",
+          "back": "Whole: oats or brown rice. Refined: soda or candy."
+        },
+        {
+          "type": "flash",
+          "front": "Which fats are worth favoring?",
+          "back": "Unsaturated: olive oil, nuts, avocado, fatty fish. Avoid trans fats."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why does protein keep you full longer than carbs?",
+            "choices": [
+              "It digests more slowly",
+              "It has zero calories",
+              "It turns directly into muscle"
+            ],
+            "answer": 0,
+            "explain": "Protein's slow digestion and hormonal effects on satiety outlast quick-burning carbs."
+          },
+          {
+            "q": "Your brain's preferred fuel is...",
+            "choices": [
+              "Carbohydrates",
+              "Protein",
+              "Water"
+            ],
+            "answer": 0,
+            "explain": "The brain runs primarily on glucose from carbs. It can adapt to alternatives, but carbs are its first choice."
+          },
+          {
+            "q": "Which fat source is the best pick?",
+            "choices": [
+              "Olive oil",
+              "Partially hydrogenated shortening",
+              "Margarine sticks from the 90s"
+            ],
+            "answer": 0,
+            "explain": "Olive oil is rich in unsaturated fats. Partially hydrogenated oils contain trans fats linked to heart disease."
+          },
+          {
+            "q": "Using the hand method, a serving of vegetables is...",
+            "choices": [
+              "A fist",
+              "A thumb",
+              "A palm"
+            ],
+            "answer": 0,
+            "explain": "Fist of veg, palm of protein, cupped hand of carbs, thumb of fats — the whole system fits in your hands."
+          },
+          {
+            "q": "Refined carbs differ from whole carbs mainly in...",
+            "choices": [
+              "Fiber content and how fast they digest",
+              "Color",
+              "Price"
+            ],
+            "answer": 0,
+            "explain": "Refining strips fiber, so the carbs hit your bloodstream fast — spike, crash, hunger again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nutrition-2",
+      "title": "Reading labels",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The serving-size trap",
+          "body": "The first thing on any label is the serving size — and it's often smaller than what you'd actually eat. A '200-calorie' snack pack with 2.5 servings is really 500 calories. Always multiply before you judge."
+        },
+        {
+          "type": "text",
+          "title": "Sugar's many aliases",
+          "body": "Ingredients list anything ending in -ose (fructose, dextrose), plus syrup, nectar, cane juice, and maltodextrin — all sugar wearing costumes. If three of the first five ingredients are sweeteners by different names, it's dessert."
+        },
+        {
+          "type": "text",
+          "title": "% Daily Value, decoded",
+          "body": "The %DV column tells you how much of a nutrient one serving provides against a 2,000-calorie day. Rule of thumb: 5% or less is low, 20% or more is high. Useful for spotting sodium and fiber at a glance."
+        },
+        {
+          "type": "tip",
+          "body": "Ingredients are listed by weight, heaviest first. If sugar (by any name) is in the top three, the product is mostly sugar — no matter what the front of the box promises."
+        },
+        {
+          "type": "example",
+          "body": "Compare two yogurts: Cup A lists 'strawberry, milk, sugar' with 12g sugar per 100g. Cup B lists 'milk, sugar, glucose syrup, strawberry flavor' with 18g sugar. Same front-of-box claims, very different insides. The label never lies; marketing does."
+        },
+        {
+          "type": "check",
+          "q": "What's the first thing you should check on a nutrition label?",
+          "choices": [
+            "The serving size",
+            "The brand name",
+            "The prettiest number"
+          ],
+          "answer": 0,
+          "explain": "Every other number on the label is per serving. If the serving is unrealistically small, all the numbers mislead you until you multiply."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "Why does serving size matter most?",
+          "back": "All label numbers are per serving — multiply by what you'll actually eat."
+        },
+        {
+          "type": "flash",
+          "front": "Name three hidden names for sugar.",
+          "back": "Any three of: fructose, dextrose, syrup, nectar, cane juice, maltodextrin, anything ending in -ose."
+        },
+        {
+          "type": "flash",
+          "front": "What does 20% DV mean?",
+          "back": "One serving gives 20% of that nutrient for a 2,000-calorie day — that's high."
+        },
+        {
+          "type": "flash",
+          "front": "How are ingredients ordered on a label?",
+          "back": "By weight, heaviest first."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "A bag says 150 calories, 3 servings per bag. You eat the whole bag. Calories?",
+            "choices": [
+              "450",
+              "150",
+              "300"
+            ],
+            "answer": 0,
+            "explain": "150 × 3 servings = 450. The front number is per serving, not per package."
+          },
+          {
+            "q": "'Evaporated cane juice' on an ingredient list is...",
+            "choices": [
+              "Sugar",
+              "A vegetable",
+              "A preservative"
+            ],
+            "answer": 0,
+            "explain": "It's sugar with a health-food costume. The -ose family and syrups are all added sugars."
+          },
+          {
+            "q": "A soup has 25% DV sodium per serving. That means...",
+            "choices": [
+              "It's high in sodium",
+              "It's low in sodium",
+              "Nothing — DV is meaningless"
+            ],
+            "answer": 0,
+            "explain": "20%+ DV is the 'high' threshold. One serving already covers a quarter of the day's sodium."
+          },
+          {
+            "q": "Sugar is the second ingredient listed. That tells you...",
+            "choices": [
+              "It's one of the heaviest ingredients by weight",
+              "It's the second healthiest",
+              "Nothing about quantity"
+            ],
+            "answer": 0,
+            "explain": "Ingredients descend by weight, so #2 means there's a lot of it in there."
+          },
+          {
+            "q": "Best quick check for fiber on a label?",
+            "choices": [
+              "%DV — 20%+ is high",
+              "The brand's health claims",
+              "The color of the box"
+            ],
+            "answer": 0,
+            "explain": "%DV gives you the fact; front-of-box claims give you the marketing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nutrition-3",
+      "title": "Meal planning",
+      "cards": [
+        {
+          "type": "text",
+          "title": "The plate method",
+          "body": "Forget counting: fill half your plate with vegetables, a quarter with protein, and a quarter with carbs. Add a thumb of healthy fats. It auto-balances macros without an app, a scale, or a spreadsheet."
+        },
+        {
+          "type": "text",
+          "title": "Prep beats willpower",
+          "body": "Decide once, eat well all week: cook a big batch of grains, roast a tray of vegetables, and prep two proteins on Sunday. Weeknight you becomes an assembler, not a chef. Hungry brains make bad food decisions; prepped food removes the decision."
+        },
+        {
+          "type": "tip",
+          "body": "Shop the perimeter of the grocery store: produce, meat, dairy, bakery. The middle aisles are where the ultra-processed stuff lives. You don't have to avoid them entirely — just start outside and work in."
+        },
+        {
+          "type": "example",
+          "body": "A sample day on the plate method: breakfast — Greek yogurt, berries, oats, handful of nuts. Lunch — big salad, grilled chicken, olive oil, a roll. Dinner — salmon, roasted broccoli, sweet potato. Snacks — apple, handful of almonds. Nothing counted, everything balanced."
+        },
+        {
+          "type": "text",
+          "title": "The 80/20 reality",
+          "body": "Eat well 80% of the time and the other 20% genuinely doesn't matter. The all-or-nothing mindset is what kills diets — one pizza doesn't ruin anything, but 'I already failed' thinking ruins everything."
+        },
+        {
+          "type": "check",
+          "q": "On the plate method, how much of the plate is vegetables?",
+          "choices": [
+            "Half",
+            "A quarter",
+            "None — vegetables are optional"
+          ],
+          "answer": 0,
+          "explain": "Half the plate is vegetables. That single rule crowds out the less nutritious stuff without any counting."
+        }
+      ],
+      "flashcards": [
+        {
+          "type": "flash",
+          "front": "What is the plate method?",
+          "back": "Half veg, quarter protein, quarter carbs, plus a thumb of healthy fats."
+        },
+        {
+          "type": "flash",
+          "front": "Why does meal prep work?",
+          "back": "It removes decisions when you're hungry — you assemble instead of improvising."
+        },
+        {
+          "type": "flash",
+          "front": "Where should you start grocery shopping?",
+          "back": "The perimeter: produce, meat, dairy, bakery."
+        },
+        {
+          "type": "flash",
+          "front": "What is the 80/20 rule of eating?",
+          "back": "Eat well 80% of the time; the other 20% doesn't matter. Consistency beats perfection."
+        }
+      ],
+      "checkpoint": {
+        "pass": 70,
+        "questions": [
+          {
+            "q": "Why does the plate method work without counting calories?",
+            "choices": [
+              "Vegetables crowd out calorie-dense food automatically",
+              "Vegetables have zero calories",
+              "Counting is illegal"
+            ],
+            "answer": 0,
+            "explain": "Half a plate of veg physically limits room for denser foods while adding fiber and volume."
+          },
+          {
+            "q": "Biggest benefit of Sunday meal prep?",
+            "choices": [
+              "Fewer decisions when hungry",
+              "It makes food taste better",
+              "It saves refrigerator space"
+            ],
+            "answer": 0,
+            "explain": "Decision fatigue is the enemy. Prepped components turn weeknight cooking into assembly."
+          },
+          {
+            "q": "Someone eats perfectly all week then has pizza Friday. Verdict?",
+            "choices": [
+              "Totally fine — that's the 20%",
+              "Diet ruined, start over Monday",
+              "They must skip Saturday meals"
+            ],
+            "answer": 0,
+            "explain": "80/20 means one indulgent meal is part of the plan, not a failure. The all-or-nothing spiral is the real diet killer."
+          },
+          {
+            "q": "Best first step for a beginner meal planner?",
+            "choices": [
+              "Cook grains + roast veg + prep two proteins weekly",
+              "Buy every supplement advertised",
+              "Throw out all snacks immediately"
+            ],
+            "answer": 0,
+            "explain": "Three batch-cooked components cover most meals. Supplements and purges are distractions."
+          },
+          {
+            "q": "Shopping the perimeter helps because...",
+            "choices": [
+              "Whole foods live there; ultra-processed fills the middle aisles",
+              "The lighting is better",
+              "It's faster"
+            ],
+            "answer": 0,
+            "explain": "Produce, meat, dairy, and bakery ring the store. The center aisles are engineered snack territory."
+          }
+        ]
+      }
+    }
+  ]
+}

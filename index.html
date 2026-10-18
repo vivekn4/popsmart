@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>POPSMART — Bite-size learning that adapts to you</title>
+<meta name="description" content="POPSMART is a hyper-personalized micro-learning companion. Bite-size lessons, smart flashcards, and skill checkpoints that adapt to your focus and habits.">
+<meta name="theme-color" content="#FFE600">
+<meta property="og:type" content="website">
+<meta property="og:title" content="POPSMART — Bite-size learning that adapts to you">
+<meta property="og:description" content="Hyper-personalized micro-learning: bite-size lessons, smart flashcards, and skill checkpoints across 27 subjects.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="POPSMART — Bite-size learning that adapts to you">
+<meta name="twitter:description" content="Bite-size lessons, smart flashcards, and checkpoints that adapt to your focus and habits.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='6' y='6' width='88' height='88' rx='18' fill='%23FFE600' stroke='%23111' stroke-width='8'/%3E%3Ctext x='50' y='68' font-size='52' font-weight='900' text-anchor='middle' fill='%23111' font-family='sans-serif'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- SVG icon sprite: chunky sticker-style glyphs, no emojis anywhere -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-flame" viewBox="0 0 24 24">
+      <path d="M12 2c1 4-4 6-4 11a4.5 4.5 0 0 0 9 0c0-2-1-3.5-2-5-.5 1.5-1.5 2-1.5 2C14 7 13 4 12 2z"
+            fill="#FF8C42" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M12 21a3 3 0 0 1-3-3c0-2 2-3 2-5 2 1 4 3 4 5a3 3 0 0 1-3 3z" fill="#FFE600"/>
+    </symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="8" height="8" rx="1" fill="#7C3AED" stroke="#111" stroke-width="2"/>
+      <rect x="13" y="3" width="8" height="8" rx="1" fill="#FF6B9D" stroke="#111" stroke-width="2"/>
+      <rect x="3" y="13" width="8" height="8" rx="1" fill="#FFE600" stroke="#111" stroke-width="2"/>
+      <rect x="13" y="13" width="8" height="8" rx="1" fill="#2EC4B6" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24">
+      <path d="M4 4h7v16H4z M13 4h7v16h-7z" fill="#FFFDF5" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M4 4h7v4H4z M13 4h7v4h-7z" fill="#FFE600" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-cards" viewBox="0 0 24 24">
+      <rect x="7" y="4" width="12" height="16" rx="2" fill="#7C3AED" stroke="#111" stroke-width="2" transform="rotate(8 13 12)"/>
+      <rect x="5" y="4" width="12" height="16" rx="2" fill="#FFFDF5" stroke="#111" stroke-width="2" transform="rotate(-4 11 12)"/>
+      <circle cx="11" cy="12" r="3" fill="#FF6B9D" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-target" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="#FFFDF5" stroke="#111" stroke-width="2"/>
+      <circle cx="12" cy="12" r="5.5" fill="#FF6B9D" stroke="#111" stroke-width="2"/>
+      <circle cx="12" cy="12" r="2" fill="#111"/>
+    </symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24">
+      <path d="M13 2 4 14h6l-1 8 9-12h-6z" fill="#FFE600" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24">
+      <path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"
+            fill="#FFE600" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="M4 12l6 6L20 6" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6L6 18" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M4 12h14M13 5l7 7-7 7" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="#FFFDF5" stroke="#111" stroke-width="2"/>
+      <path d="M12 7v5l4 3" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24">
+      <rect x="4" y="13" width="4" height="7" fill="#7C3AED" stroke="#111" stroke-width="2"/>
+      <rect x="10" y="8" width="4" height="12" fill="#FF6B9D" stroke="#111" stroke-width="2"/>
+      <rect x="16" y="4" width="4" height="16" fill="#FFE600" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-sound" viewBox="0 0 24 24">
+      <path d="M4 9v6h4l5 4V5L8 9H4z" fill="#FFFDF5" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M16 8a5 5 0 0 1 0 8M18.5 5.5a9 9 0 0 1 0 13" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24">
+      <path d="M4 9v6h4l5 4V5L8 9H4z" fill="#EDEAE0" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M16 9l6 6M22 9l-6 6" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="app-header" role="banner">
+  <a class="logo" href="#/dashboard" aria-label="POPSMART home">
+    <span class="logo-dot" aria-hidden="true"></span>POPSMART
+  </a>
+  <div class="header-stats">
+    <button class="sound-toggle" id="sound-toggle" aria-pressed="true" aria-label="Sound effects on" title="Toggle sound effects">
+      <svg aria-hidden="true"><use href="#i-sound"/></svg>
+    </button>
+    <span class="sticker pink" id="streak-sticker" title="Day streak" aria-label="Current streak: 0 days">
+      <svg aria-hidden="true"><use href="#i-flame"/></svg>
+      <span class="sticker-num" id="streak-count">0</span>
+    </span>
+    <span class="sticker teal" id="focus-sticker" title="Today's focus score" aria-label="Focus score: 0">
+      <svg aria-hidden="true"><use href="#i-bolt"/></svg>
+      <span class="sticker-num" id="focus-score">0</span>
+    </span>
+  </div>
+</header>
+
+<main class="app-main" id="main" role="main" tabindex="-1">
+
+  <!-- DASHBOARD -->
+  <section class="view" id="view-dashboard" aria-labelledby="dash-title" hidden>
+    <h1 id="dash-title">Your <span class="hl">brain</span> today</h1>
+    <p class="lede">Small reps. Big brain. Here's where you stand.</p>
+
+    <div class="grid two mt">
+      <div class="card tilt-l">
+        <div class="card-title">Streak</div>
+        <div class="flame" aria-label="Day streak">
+          <svg aria-hidden="true"><use href="#i-flame"/></svg>
+          <span class="count"><span id="dash-streak">0</span> days</span>
+        </div>
+        <p id="dash-streak-msg">Start today — future you says thanks.</p>
+      </div>
+      <div class="card tilt-r">
+        <div class="card-title">Focus score</div>
+        <div class="row">
+          <div class="ring-wrap">
+            <svg class="ring" viewBox="0 0 92 92" role="img" aria-label="Focus score ring">
+              <circle class="ring-bg" cx="46" cy="46" r="38" fill="none" stroke-width="10"/>
+              <circle class="ring-fg" id="focus-ring" cx="46" cy="46" r="38" fill="none"
+                      stroke-width="10" stroke-dasharray="238.8" stroke-dashoffset="238.8"/>
+            </svg>
+            <span class="ring-label"><span id="dash-focus">0</span>/100</span>
+          </div>
+          <p id="dash-focus-msg" style="flex:1">Do one lesson to light this up.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt">
+      <div class="card-title">Your rhythm <span class="chip teal">auto-learned</span></div>
+      <p>When your brain actually shows up. Taller bar = sharper you.</p>
+      <div class="rhythm-wrap">
+        <div class="rhythm" id="rhythm-chart" role="img" aria-label="Study performance by hour of day"></div>
+      </div>
+      <p id="rhythm-tip" class="lede"></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Skills</div>
+      <div class="grid two" id="skill-rings"></div>
+    </div>
+
+    <div class="card mt">
+      <div class="card-title">Trophy shelf</div>
+      <div id="badge-shelf" class="badge-wall"></div>
+      <div class="row mt">
+        <button class="btn primary" id="share-progress">Share my progress</button>
+        <a class="btn" href="#/tracker">Trophy wall</a>
+      </div>
+    </div>
+
+    <a class="btn primary big block mt" href="#/learn">
+      Start today's session
+      <svg width="22" height="22" aria-hidden="true"><use href="#i-arrow"/></svg>
+    </a>
+  </section>
+
+  <!-- LEARN -->
+  <section class="view" id="view-learn" aria-labelledby="learn-title" hidden>
+    <h1 id="learn-title">Learn <span class="hl purple">bite-size</span></h1>
+    <p class="lede">Three minutes. One idea. Zero fluff.</p>
+    <div id="subject-picker" class="grid two mt" role="list" aria-label="Choose a subject"></div>
+    <div id="lesson-player" class="mt"></div>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section class="view" id="view-cards" aria-labelledby="cards-title" hidden>
+    <h1 id="cards-title">Flash<span class="hl pink">cards</span></h1>
+    <p class="lede">Flip. Recall. The app handles the timing.</p>
+    <div class="row mt mb">
+      <span class="chip yellow" id="cards-due">0 due</span>
+      <span class="chip" id="cards-done">0 done today</span>
+    </div>
+    <div id="card-player"></div>
+  </section>
+
+  <!-- CHECKPOINT -->
+  <section class="view" id="view-checkpoint" aria-labelledby="check-title" hidden>
+    <h1 id="check-title">Check<span class="hl">point</span></h1>
+    <p class="lede">Prove it. Level up. Five questions, no mercy.</p>
+    <div id="checkpoint-picker" class="mt"></div>
+    <div id="checkpoint-player" class="mt"></div>
+  </section>
+
+  <!-- TRACKER -->
+  <section class="view" id="view-tracker" aria-labelledby="track-title" hidden>
+    <h1 id="track-title">My <span class="hl teal">learning</span></h1>
+    <p class="lede">Every subject you're growing, in one place.</p>
+
+    <div class="card mt">
+      <div class="card-title">Trophy wall</div>
+      <p>Badges you've earned — and the ones still waiting.</p>
+      <div id="badge-wall" class="badge-wall"></div>
+    </div>
+
+    <div class="row spread mt mb">
+      <h2>Subjects</h2>
+      <div class="sort-row" role="group" aria-label="Sort subjects">
+        <button class="btn small" id="sort-recent" aria-pressed="true">Recent</button>
+        <button class="btn small" id="sort-progress" aria-pressed="false">Progress</button>
+      </div>
+    </div>
+    <div id="tracker-list"></div>
+    <p id="tracker-more" class="lede mt"></p>
+  </section>
+
+</main>
+
+<nav class="app-nav" role="navigation" aria-label="Primary">
+  <a class="nav-link" href="#/dashboard" data-route="dashboard">
+    <svg aria-hidden="true"><use href="#i-grid"/></svg>
+    <span>Home</span>
+  </a>
+  <a class="nav-link" href="#/learn" data-route="learn">
+    <svg aria-hidden="true"><use href="#i-book"/></svg>
+    <span>Learn</span>
+  </a>
+  <a class="nav-link" href="#/cards" data-route="cards">
+    <svg aria-hidden="true"><use href="#i-cards"/></svg>
+    <span>Cards</span>
+  </a>
+  <a class="nav-link" href="#/tracker" data-route="tracker">
+    <svg aria-hidden="true"><use href="#i-chart"/></svg>
+    <span>Track</span>
+  </a>
+  <a class="nav-link" href="#/checkpoint" data-route="checkpoint">
+    <svg aria-hidden="true"><use href="#i-target"/></svg>
+    <span>Check</span>
+  </a>
+</nav>
+
+<div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+<footer class="app-footer" role="contentinfo">
+  <span class="foot-tag">Popsmart v1</span><br>
+  Your progress lives in this browser. Nothing leaves your device.
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/engine.js"></script>
+<script src="data/packs.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/rewards.js"></script>
+<script src="js/views.js"></script>
+</body>
+</html>

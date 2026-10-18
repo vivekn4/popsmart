@@ -1,0 +1,359 @@
+{
+ "id": "astro",
+ "title": "Astronomy",
+ "icon": "star",
+ "color": "#6C3483",
+ "levels": [
+  {
+   "id": "astro-1",
+   "title": "The solar system",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Eight planets, one star",
+     "body": "Our solar system has one star (the Sun) and eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. The four inner ones are small and rocky; the four outer ones are gas and ice giants. Pluto was reclassified as a dwarf planet in 2006."
+    },
+    {
+     "type": "text",
+     "title": "Order matters",
+     "body": "From the Sun outward: Mercury (scorched), Venus (crushing greenhouse heat), Earth (just right), Mars (cold desert), then the giants \u2014 Jupiter (biggest), Saturn (rings), Uranus (tipped sideways), Neptune (windiest). Distance from the Sun sets the thermostat."
+    },
+    {
+     "type": "tip",
+     "body": "Memorize the order with: 'My Very Educated Mother Just Served Us Nachos' \u2014 Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+     "type": "example",
+     "body": "Light from the Sun takes 8 minutes to reach Earth \u2014 so you're always seeing the Sun as it was 8 minutes ago. From Neptune, it's over 4 hours. The solar system is so big that 'now' depends on where you stand."
+    },
+    {
+     "type": "check",
+     "q": "Why is Pluto not a planet?",
+     "choices": [
+      "It hasn't cleared its orbit of other objects",
+      "It's too small to see",
+      "It's made of ice, not rock"
+     ],
+     "answer": 0,
+     "explain": "The 2006 definition demands a planet clear its orbital neighborhood. Pluto shares its zone with Kuiper Belt objects, so it's a dwarf planet."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "How many planets are in our solar system?",
+     "back": "Eight: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+     "type": "flash",
+     "front": "Which planet is biggest?",
+     "back": "Jupiter \u2014 more massive than all other planets combined."
+    },
+    {
+     "type": "flash",
+     "front": "Which planet has the famous rings?",
+     "back": "Saturn (though Jupiter, Uranus, and Neptune have faint rings too)."
+    },
+    {
+     "type": "flash",
+     "front": "How long does sunlight take to reach Earth?",
+     "back": "About 8 minutes."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Put in order from the Sun: Mars, Venus, Mercury",
+      "choices": [
+       "Mercury, Venus, Mars",
+       "Venus, Mercury, Mars",
+       "Mars, Venus, Mercury"
+      ],
+      "answer": 0,
+      "explain": "Mercury is closest, then Venus, then Earth, then Mars. The inner rocky lineup never changes."
+     },
+     {
+      "type": "check",
+      "q": "The four outer planets are mostly...?",
+      "choices": [
+       "Gas and ice",
+       "Rock and metal",
+       "Liquid water"
+      ],
+      "answer": 0,
+      "explain": "Jupiter and Saturn are gas giants; Uranus and Neptune are ice giants. The rocky ones are all inner."
+     },
+     {
+      "type": "check",
+      "q": "Venus is hotter than Mercury because...?",
+      "choices": [
+       "A runaway greenhouse effect traps heat",
+       "It's closer to the Sun",
+       "It spins faster"
+      ],
+      "answer": 0,
+      "explain": "Mercury is closer, but Venus's thick CO\u2082 atmosphere traps heat so completely it's the hottest planet \u2014 about 465\u00b0C."
+     },
+     {
+      "type": "check",
+      "q": "What is the Kuiper Belt?",
+      "choices": [
+       "A ring of icy objects beyond Neptune",
+       "Saturn's outer ring",
+       "A galaxy near ours"
+      ],
+      "answer": 0,
+      "explain": "It's the donut of dwarf planets and comets past Neptune \u2014 Pluto's neighborhood, and the reason Pluto got demoted."
+     },
+     {
+      "type": "check",
+      "q": "Uranus is unusual because...?",
+      "choices": [
+       "It spins on its side",
+       "It has no moons",
+       "It's the smallest planet"
+      ],
+      "answer": 0,
+      "explain": "Uranus rolls around the Sun tilted 98 degrees \u2014 likely from an ancient collision. It has 28 known moons, so it's not lonely."
+     }
+    ]
+   }
+  },
+  {
+   "id": "astro-2",
+   "title": "Stars & galaxies",
+   "cards": [
+    {
+     "type": "text",
+     "title": "The Sun is just a star",
+     "body": "Every star you see at night is a sun \u2014 some bigger, some smaller than ours. Stars shine because their cores fuse hydrogen into helium, releasing enormous energy. Our Sun is aggressively average: a middle-aged, middle-sized star in a quiet neighborhood."
+    },
+    {
+     "type": "text",
+     "title": "Galaxies are star cities",
+     "body": "A galaxy is a vast collection of stars, gas, and dust held together by gravity. Ours is the Milky Way \u2014 about 100 billion stars in a spiral. The nearest big neighbor, Andromeda, is 2.5 million light-years away and drifting toward us."
+    },
+    {
+     "type": "tip",
+     "body": "A light-year is a distance, not a time: how far light travels in one year \u2014 about 9.5 trillion kilometers. When astronomers say a star is 100 light-years away, they mean its light left 100 years ago."
+    },
+    {
+     "type": "example",
+     "body": "Look at the Andromeda galaxy tonight (it's visible as a faint smudge). The light hitting your eyes left 2.5 million years ago \u2014 before humans existed. Stargazing is time travel."
+    },
+    {
+     "type": "check",
+     "q": "What makes a star shine?",
+     "choices": [
+      "Nuclear fusion in its core",
+      "Burning gas like a fire",
+      "Reflected sunlight"
+     ],
+     "answer": 0,
+     "explain": "Stars fuse hydrogen into helium, converting mass to energy. It's not burning and not reflected \u2014 it's nuclear physics, the same process as a hydrogen bomb, sustained for billions of years."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "What is the Sun?",
+     "back": "A star \u2014 a middle-aged, average-sized one."
+    },
+    {
+     "type": "flash",
+     "front": "What is a galaxy?",
+     "back": "A huge collection of stars, gas, and dust bound by gravity."
+    },
+    {
+     "type": "flash",
+     "front": "What is a light-year?",
+     "back": "The distance light travels in one year (~9.5 trillion km)."
+    },
+    {
+     "type": "flash",
+     "front": "Which galaxy do we live in?",
+     "back": "The Milky Way \u2014 a spiral with ~100 billion stars."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Stars produce energy by...?",
+      "choices": [
+       "Fusing hydrogen into helium",
+       "Burning oxygen",
+       "Splitting atoms apart"
+      ],
+      "answer": 0,
+      "explain": "Fusion in the core: hydrogen nuclei merge into helium, and the missing mass becomes light and heat. Fission (splitting) is power plants, not stars."
+     },
+     {
+      "type": "check",
+      "q": "Andromeda is 2.5 million light-years away. Its light...?",
+      "choices": [
+       "Left 2.5 million years ago",
+       "Arrives instantly",
+       "Left last Tuesday"
+      ],
+      "answer": 0,
+      "explain": "Light speed is fast but finite. Every star you see is a message from the past \u2014 Andromeda's is just a very old one."
+     },
+     {
+      "type": "check",
+      "q": "Our galaxy's shape is...?",
+      "choices": [
+       "A spiral",
+       "A perfect sphere",
+       "A straight line"
+      ],
+      "answer": 0,
+      "explain": "The Milky Way is a barred spiral \u2014 a flat disk with arms winding out from the center. We sit about two-thirds of the way out."
+     },
+     {
+      "type": "check",
+      "q": "The Sun is best described as...?",
+      "choices": [
+       "An average middle-aged star",
+       "The biggest star known",
+       "A dying red giant"
+      ],
+      "answer": 0,
+      "explain": "It's a G-type main-sequence star, about 4.6 billion years old with 5 billion to go. Spectacularly ordinary \u2014 which is great for us."
+     },
+     {
+      "type": "check",
+      "q": "What happens when a massive star dies?",
+      "choices": [
+       "It can collapse into a black hole",
+       "It quietly fades to nothing",
+       "It becomes a planet"
+      ],
+      "answer": 0,
+      "explain": "Stars over ~20 solar masses go supernova and their cores can collapse past neutron stars into black holes \u2014 gravity winning completely."
+     }
+    ]
+   }
+  },
+  {
+   "id": "astro-3",
+   "title": "Space exploration",
+   "cards": [
+    {
+     "type": "text",
+     "title": "We walked on the Moon in 1969",
+     "body": "On July 20, 1969, Apollo 11 landed Neil Armstrong and Buzz Aldrin on the Moon while Michael Collins orbited above. Armstrong's first step was watched by 600 million people. Twelve humans have walked on the Moon \u2014 all American, all between 1969 and 1972."
+    },
+    {
+     "type": "text",
+     "title": "Robots go where we can't",
+     "body": "No human has been to Mars, but rovers like Perseverance are there now, drilling rocks and flying a helicopter. Voyager 1, launched in 1977, is the farthest human-made object \u2014 it crossed into interstellar space carrying a golden record of Earth sounds."
+    },
+    {
+     "type": "tip",
+     "body": "Remember the firsts: first satellite (Sputnik, 1957), first human in space (Yuri Gagarin, 1961), first Moon landing (Apollo 11, 1969), first space station crew (ISS, 2000 \u2014 continuously occupied since)."
+    },
+    {
+     "type": "example",
+     "body": "The ISS orbits Earth every 90 minutes at 28,000 km/h. Astronauts up there see 16 sunrises a day. It's been continuously occupied since November 2000 \u2014 the longest human presence off Earth."
+    },
+    {
+     "type": "check",
+     "q": "How many people have walked on the Moon?",
+     "choices": [
+      "12",
+      "3",
+      "100+"
+     ],
+     "answer": 0,
+     "explain": "Twelve, all from NASA's Apollo program (1969\u20131972). Nobody has been back since Apollo 17 \u2014 though Artemis aims to change that."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "When did humans first land on the Moon?",
+     "back": "July 20, 1969 \u2014 Apollo 11."
+    },
+    {
+     "type": "flash",
+     "front": "Who was the first human in space?",
+     "back": "Yuri Gagarin, in 1961."
+    },
+    {
+     "type": "flash",
+     "front": "What was the first artificial satellite?",
+     "back": "Sputnik 1, launched by the USSR in 1957."
+    },
+    {
+     "type": "flash",
+     "front": "What is the ISS?",
+     "back": "The International Space Station \u2014 continuously occupied since 2000."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Apollo 11's crew was...?",
+      "choices": [
+       "Armstrong, Aldrin, and Collins",
+       "Armstrong alone",
+       "Armstrong and Gagarin"
+      ],
+      "answer": 0,
+      "explain": "Armstrong and Aldrin walked; Collins stayed in the command module orbiting above. Gagarin was Soviet and never went to the Moon."
+     },
+     {
+      "type": "check",
+      "q": "Voyager 1 is famous because...?",
+      "choices": [
+       "It's the farthest human-made object from Earth",
+       "It landed on Mars",
+       "It carries astronauts"
+      ],
+      "answer": 0,
+      "explain": "Launched 1977, it passed the heliopause into interstellar space in 2012. No crew \u2014 just instruments and the Golden Record."
+     },
+     {
+      "type": "check",
+      "q": "The ISS has been continuously occupied since...?",
+      "choices": [
+       "2000",
+       "1969",
+       "1990"
+      ],
+      "answer": 0,
+      "explain": "Expedition 1 arrived November 2000. Every day since, at least one human has been in orbit \u2014 over two decades straight."
+     },
+     {
+      "type": "check",
+      "q": "What does Perseverance do on Mars?",
+      "choices": [
+       "Studies rocks and searches for signs of ancient life",
+       "Builds habitats for astronauts",
+       "Mines fuel for return trips"
+      ],
+      "answer": 0,
+      "explain": "It's a rolling science lab: drilling core samples, testing oxygen production, and flying the Ingenuity helicopter."
+     },
+     {
+      "type": "check",
+      "q": "Why haven't humans been to Mars yet?",
+      "choices": [
+       "Distance, radiation, and life-support challenges",
+       "Nobody is interested",
+       "Mars has no gravity"
+      ],
+      "answer": 0,
+      "explain": "It's a 7-month trip each way through radiation, with no resupply and a thin unbreathable atmosphere. Mars does have gravity \u2014 about 38% of Earth's."
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,359 @@
+{
+ "id": "chem",
+ "title": "Chemistry",
+ "icon": "flask",
+ "color": "#E67E22",
+ "levels": [
+  {
+   "id": "chem-1",
+   "title": "Atoms & elements",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Everything is built from atoms",
+     "body": "An atom is the smallest piece of an element that still acts like that element. Every atom has protons and neutrons packed in its center (the nucleus) with electrons zipping around them. Change the number of protons and you change the element itself."
+    },
+    {
+     "type": "text",
+     "title": "Protons decide identity",
+     "body": "Hydrogen has 1 proton. Helium has 2. Carbon has 6, oxygen has 8, gold has 79. The proton count \u2014 called the atomic number \u2014 is the element's ID card. Electrons decide how it behaves; neutrons mostly just add weight."
+    },
+    {
+     "type": "tip",
+     "body": "Remember the big three: protons = identity (who it is), electrons = personality (how it bonds), neutrons = luggage (adds mass, doesn't change the element)."
+    },
+    {
+     "type": "example",
+     "body": "Water is H\u2082O: two hydrogen atoms (1 proton each) plus one oxygen atom (8 protons). Same atoms, rearranged, give you hydrogen peroxide \u2014 H\u2082O\u2082 \u2014 which bleaches hair. Arrangement is everything."
+    },
+    {
+     "type": "check",
+     "q": "What decides which element an atom is?",
+     "choices": [
+      "Its number of protons",
+      "Its number of neutrons",
+      "Its size"
+     ],
+     "answer": 0,
+     "explain": "Protons are the ID card. Change the proton count and you literally change the element \u2014 that's why it's called the atomic number."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "What are the three parts of an atom?",
+     "back": "Protons and neutrons in the nucleus, electrons orbiting around them."
+    },
+    {
+     "type": "flash",
+     "front": "What does the atomic number tell you?",
+     "back": "The number of protons \u2014 which decides the element's identity."
+    },
+    {
+     "type": "flash",
+     "front": "How many protons does carbon have?",
+     "back": "6. That's what makes it carbon and not something else."
+    },
+    {
+     "type": "flash",
+     "front": "What is H\u2082O made of?",
+     "back": "Two hydrogen atoms and one oxygen atom."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Where are protons and neutrons found?",
+      "choices": [
+       "In the nucleus",
+       "Orbiting the atom",
+       "In the electron cloud"
+      ],
+      "answer": 0,
+      "explain": "The nucleus is the dense center. Electrons are the ones flying around outside it."
+     },
+     {
+      "type": "check",
+      "q": "Hydrogen's atomic number is 1. That means...?",
+      "choices": [
+       "It has 1 proton",
+       "It has 1 neutron",
+       "It weighs 1 gram"
+      ],
+      "answer": 0,
+      "explain": "Atomic number = proton count, always. Hydrogen: 1 proton. Helium: 2. It's that direct."
+     },
+     {
+      "type": "check",
+      "q": "Electrons mainly decide...?",
+      "choices": [
+       "How an atom bonds with others",
+       "The atom's weight",
+       "Which element it is"
+      ],
+      "answer": 0,
+      "explain": "Electrons are the socialites \u2014 they form the bonds. Protons decide identity; neutrons add mass."
+     },
+     {
+      "type": "check",
+      "q": "Gold has 79 protons. An atom with 80 protons is...?",
+      "choices": [
+       "A different element (mercury)",
+       "Still gold, but heavier",
+       "Gold with extra charge"
+      ],
+      "answer": 0,
+      "explain": "80 protons = mercury, full stop. Proton count is identity; there's no negotiating with it."
+     },
+     {
+      "type": "check",
+      "q": "What does the \u2082 in H\u2082O mean?",
+      "choices": [
+       "Two hydrogen atoms",
+       "Hydrogen weighs 2 units",
+       "Water has 2 oxygens"
+      ],
+      "answer": 0,
+      "explain": "The subscript counts atoms of the element before it: H\u2082 means two hydrogens, O (no subscript) means one oxygen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "chem-2",
+   "title": "The periodic table",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Elements, organized by personality",
+     "body": "The periodic table lines up every known element by atomic number \u2014 but the magic is the columns. Elements in the same column (called groups) behave alike because they have the same number of outer electrons. It's a seating chart where neighbors share habits."
+    },
+    {
+     "type": "text",
+     "title": "Rows tell a story too",
+     "body": "Each row (called a period) adds a new electron shell. Sodium and magnesium sit side by side in row 3 \u2014 close in number, but sodium explodes in water while magnesium just fizzes. Position predicts personality."
+    },
+    {
+     "type": "tip",
+     "body": "Learn the famous neighborhoods: Group 1 (alkali metals) \u2014 violently reactive; Group 17 (halogens) \u2014 reactive the other way; Group 18 (noble gases) \u2014 refuse to react at all. Three groups cover most of chemistry's drama."
+    },
+    {
+     "type": "example",
+     "body": "Table salt is NaCl \u2014 sodium (a metal that explodes in water) plus chlorine (a poisonous gas). Together? Harmless seasoning. The periodic table predicted they'd pair up: Group 1 loves Group 17."
+    },
+    {
+     "type": "check",
+     "q": "Why do elements in the same column behave alike?",
+     "choices": [
+      "They have the same number of outer electrons",
+      "They weigh the same",
+      "They were discovered together"
+     ],
+     "answer": 0,
+     "explain": "Outer electrons run the bonding show. Same count in the outer shell = same chemical habits, which is why the columns group them."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "What are the columns of the periodic table called?",
+     "back": "Groups \u2014 elements in a group behave alike."
+    },
+    {
+     "type": "flash",
+     "front": "What are the rows called?",
+     "back": "Periods \u2014 each new row adds an electron shell."
+    },
+    {
+     "type": "flash",
+     "front": "Which group refuses to react?",
+     "back": "Group 18, the noble gases (like helium and neon)."
+    },
+    {
+     "type": "flash",
+     "front": "What is table salt, chemically?",
+     "back": "NaCl \u2014 sodium plus chlorine."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Elements are ordered on the table by...?",
+      "choices": [
+       "Atomic number",
+       "Alphabetical name",
+       "Date discovered"
+      ],
+      "answer": 0,
+      "explain": "It's strictly by proton count, left to right, top to bottom. Mendeleev's original had gaps where undiscovered elements belonged."
+     },
+     {
+      "type": "check",
+      "q": "Sodium (Na) and potassium (K) both fizz in water because...?",
+      "choices": [
+       "They're in the same group",
+       "They're in the same row",
+       "They have the same weight"
+      ],
+      "answer": 0,
+      "explain": "Both are Group 1 alkali metals with one outer electron to give away \u2014 same column, same explosive generosity."
+     },
+     {
+      "type": "check",
+      "q": "Noble gases don't react because...?",
+      "choices": [
+       "Their outer electron shell is full",
+       "They're too heavy",
+       "They're all gases"
+      ],
+      "answer": 0,
+      "explain": "A full outer shell means no reason to bond. Helium, neon, argon \u2014 content exactly as they are."
+     },
+     {
+      "type": "check",
+      "q": "What does the 'Cl' in NaCl stand for?",
+      "choices": [
+       "Chlorine",
+       "Carbon",
+       "Calcium"
+      ],
+      "answer": 0,
+      "explain": "Cl is chlorine (Group 17). C is carbon, Ca is calcium \u2014 symbols aren't always obvious, which is why the table matters."
+     },
+     {
+      "type": "check",
+      "q": "Moving left to right across a period, atomic number...?",
+      "choices": [
+       "Increases by one each step",
+       "Stays the same",
+       "Jumps randomly"
+      ],
+      "answer": 0,
+      "explain": "Each step right adds exactly one proton. That's the whole ordering principle of the table."
+     }
+    ]
+   }
+  },
+  {
+   "id": "chem-3",
+   "title": "Chemical reactions",
+   "cards": [
+    {
+     "type": "text",
+     "title": "Reactions are atom reshuffles",
+     "body": "In a chemical reaction, atoms break old bonds and form new ones \u2014 but no atom is created or destroyed. Burn wood and the carbon doesn't vanish; it joins oxygen and floats off as CO\u2082. Chemistry is rearrangement, not magic."
+    },
+    {
+     "type": "text",
+     "title": "Three classic moves",
+     "body": "Synthesis: two things join (hydrogen + oxygen \u2192 water). Decomposition: one thing splits (water \u2192 hydrogen + oxygen, with electricity). Combustion: something burns in oxygen, releasing heat and light. Most reactions you'll meet are one of these three."
+    },
+    {
+     "type": "tip",
+     "body": "Follow the energy: reactions that release heat (like burning) are exothermic \u2014 'exo' means out. Reactions that absorb heat (like baking) are endothermic \u2014 'endo' means in. The prefix tells you the direction."
+    },
+    {
+     "type": "example",
+     "body": "Strike a match: wood + oxygen \u2192 CO\u2082 + water + heat + light. That's combustion \u2014 fast, hot, and bright. Your body does the same thing slowly with food: that's why eating keeps you warm."
+    },
+    {
+     "type": "check",
+     "q": "In a chemical reaction, atoms are...?",
+     "choices": [
+      "Rearranged \u2014 none created or destroyed",
+      "Destroyed to release energy",
+      "Created from nothing"
+     ],
+     "answer": 0,
+     "explain": "Conservation of mass: every atom you start with is still there at the end, just holding different hands."
+    }
+   ],
+   "flashcards": [
+    {
+     "type": "flash",
+     "front": "What happens to atoms in a reaction?",
+     "back": "They're rearranged into new substances \u2014 never created or destroyed."
+    },
+    {
+     "type": "flash",
+     "front": "What is synthesis?",
+     "back": "Two or more substances joining into one (hydrogen + oxygen \u2192 water)."
+    },
+    {
+     "type": "flash",
+     "front": "What is combustion?",
+     "back": "Burning in oxygen \u2014 releases heat and light."
+    },
+    {
+     "type": "flash",
+     "front": "Exothermic vs endothermic?",
+     "back": "Exothermic releases heat (burning); endothermic absorbs it (baking)."
+    }
+   ],
+   "checkpoint": {
+    "pass": 70,
+    "questions": [
+     {
+      "type": "check",
+      "q": "Burning wood produces CO\u2082 and water. The carbon...?",
+      "choices": [
+       "Joined oxygen and floated off as CO\u2082",
+       "Was destroyed by the fire",
+       "Turned into heat"
+      ],
+      "answer": 0,
+      "explain": "Atoms don't vanish \u2014 the wood's carbon bonded with oxygen. Heat and light are energy released, not matter destroyed."
+     },
+     {
+      "type": "check",
+      "q": "Hydrogen + oxygen \u2192 water is an example of...?",
+      "choices": [
+       "Synthesis",
+       "Decomposition",
+       "Neutralization"
+      ],
+      "answer": 0,
+      "explain": "Two substances joining into one is synthesis. Splitting apart would be decomposition."
+     },
+     {
+      "type": "check",
+      "q": "Using electricity to split water into hydrogen and oxygen is...?",
+      "choices": [
+       "Decomposition",
+       "Synthesis",
+       "Combustion"
+      ],
+      "answer": 0,
+      "explain": "One compound breaking into simpler pieces is decomposition \u2014 the reverse of synthesis."
+     },
+     {
+      "type": "check",
+      "q": "Why does eating keep you warm?",
+      "choices": [
+       "Your body slowly 'burns' food with oxygen",
+       "Food contains tiny heaters",
+       "Digestion creates friction"
+      ],
+      "answer": 0,
+      "explain": "Cellular respiration is slow combustion: food + oxygen \u2192 CO\u2082 + water + energy. Same chemistry as fire, just controlled."
+     },
+     {
+      "type": "check",
+      "q": "An endothermic reaction...?",
+      "choices": [
+       "Absorbs heat from its surroundings",
+       "Releases heat",
+       "Needs no energy at all"
+      ],
+      "answer": 0,
+      "explain": "Endo = in. Baking, melting ice, photosynthesis \u2014 all pull heat in. Exothermic pushes it out."
+     }
+    ]
+   }
+  }
+ ]
+}
