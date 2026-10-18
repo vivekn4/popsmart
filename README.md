@@ -1,5 +1,7 @@
 # 🧠 POPSMART
 
+![POPSMART logo — purple brain with a lightning bolt](assets/logo.png)
+
 **Bite-size learning that adapts to you.** A free, open-source micro-learning companion — 27 subjects, smart flashcards, and an engine that learns how *you* learn. Web + Android.
 
 ✦ VN ✦ — a Vivek Nair original.
