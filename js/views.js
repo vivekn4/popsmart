@@ -12,7 +12,7 @@ var PACKS = {};   // packId -> pack
 var LEVELS = {};  // levelId -> {pack, level}
 
 /* ---------- subject categories ---------- */
-var CATEGORIES = ['All', 'Coding', 'Language', 'Science', 'Life Skills', 'Arts'];
+var CATEGORIES = ['All', 'Coding', 'Science', 'Life Skills', 'Arts'];
 function categoryFor(packId){
   var id = String(packId||'').toLowerCase();
   if (/^(web|js|python|java|cpp|rust|go|ts|sql|html|css)$/.test(id)) return 'Coding';

@@ -53,6 +53,30 @@ function arp(notes, gap, dur, type, vol){
   notes.forEach(function(f, i){ tone(f, i * gap, dur, type, vol); });
 }
 
+/* filtered noise burst: whooshes, pops, shimmer beds */
+function noise(dur, vol, delay, freq, q){
+  var c = ac();
+  if (!c) return;
+  if (c.state === 'suspended'){ try{ c.resume(); }catch(e){} }
+  var t = c.currentTime + (delay || 0);
+  var len = Math.max(1, Math.floor(c.sampleRate * dur));
+  var buf = c.createBuffer(1, len, c.sampleRate);
+  var d = buf.getChannelData(0);
+  for (var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+  var src = c.createBufferSource();
+  src.buffer = buf;
+  var flt = c.createBiquadFilter();
+  flt.type = 'bandpass';
+  flt.frequency.value = freq || 2000;
+  flt.Q.value = q || 1;
+  var g = c.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol || 0.4, t + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  src.connect(flt); flt.connect(g); g.connect(master);
+  src.start(t); src.stop(t + dur + 0.05);
+}
+
 var SOUNDS = {
   /* bright two-note chime: you got it */
   'correct': function(){
@@ -79,6 +103,46 @@ var SOUNDS = {
   /* high sparkle: streak milestone */
   'streak': function(){
     arp([1318.50, 1567.98, 2093.00], 0.06, 0.10, 'sine', 0.30);
+  },
+  /* rising heroic fanfare: global level up */
+  'levelup': function(){
+    arp([392.00, 523.25, 659.25, 783.99], 0.10, 0.18, 'triangle', 0.5);
+    tone(1046.50, 0.40, 0.35, 'triangle', 0.5);
+    tone(1318.50, 0.52, 0.45, 'sine', 0.35);
+  },
+  /* escalating triplet: combo milestone hit */
+  'combo': function(){
+    arp([880.00, 1174.66, 1567.98], 0.05, 0.09, 'square', 0.16);
+  },
+  /* big combo: 10+ in a row */
+  'combo-big': function(){
+    arp([880.00, 1108.73, 1318.50, 1760.00], 0.06, 0.12, 'square', 0.18);
+    noise(0.25, 0.15, 0.20, 5000, 0.8);
+  },
+  /* warm chime + sparkle: daily quest complete */
+  'quest': function(){
+    tone(523.25, 0, 0.18, 'sine', 0.5);
+    tone(783.99, 0.10, 0.22, 'sine', 0.5);
+    arp([1567.98, 2093.00], 0.07, 0.10, 'sine', 0.22);
+  },
+  /* tiny UI tap */
+  'click': function(){
+    tone(1200, 0, 0.05, 'sine', 0.25);
+  },
+  /* card flip whoosh */
+  'flip': function(){
+    noise(0.12, 0.30, 0, 3000, 1.2);
+  },
+  /* magical shimmer: sticker / chest unlock */
+  'chest': function(){
+    arp([1046.50, 1318.50, 1567.98, 2093.00, 2637.00], 0.07, 0.14, 'sine', 0.28);
+    noise(0.5, 0.10, 0.1, 7000, 0.7);
+  },
+  /* grand fanfare: flawless round */
+  'perfect': function(){
+    arp([523.25, 659.25, 783.99, 1046.50, 1318.50], 0.09, 0.16, 'triangle', 0.5);
+    tone(1567.98, 0.45, 0.40, 'sine', 0.35);
+    tone(2093.00, 0.60, 0.50, 'sine', 0.28);
   }
 };
 

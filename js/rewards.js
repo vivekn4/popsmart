@@ -25,7 +25,11 @@ var BADGES = [
   { id:'perfect',     name:'Perfect 100',   desc:'A flawless checkpoint. 100%.',            icon:'i-target',share:"A perfect 100% on a POPSMART checkpoint. 'Perfect 100' badge: mine." },
   { id:'scholar',     name:'Scholar',       desc:'Finish every level of one subject.',      icon:'i-book',  share:"I finished every level of a subject on POPSMART — 'Scholar' badge earned." },
   { id:'polymath',    name:'Polymath',      desc:'Start learning 5 different subjects.',    icon:'i-grid',  share:"Learning 5 subjects at once on POPSMART. 'Polymath' badge unlocked." },
-  { id:'marathoner',  name:'Marathoner',    desc:'Blast through 50 cards in one day.',      icon:'i-bolt',  share:"50 cards in a single day on POPSMART. 'Marathoner' badge: earned." }
+  { id:'marathoner',  name:'Marathoner',    desc:'Blast through 50 cards in one day.',      icon:'i-bolt',  share:"50 cards in a single day on POPSMART. 'Marathoner' badge: earned." },
+  { id:'combo-10',   name:'Combo King',    desc:'Hit a 10x answer combo.',                icon:'i-bolt', share:"A 10x answer combo on POPSMART — 'Combo King' badge unlocked." },
+  { id:'quest-hunter',name:'Quest Hunter', desc:'Complete 10 daily quests.',              icon:'i-target',share:"10 daily quests crushed on POPSMART. 'Quest Hunter' badge: mine." },
+  { id:'sticker-star',name:'Sticker Star', desc:'Collect all 6 stickers.',                icon:'i-star', share:"Full sticker book on POPSMART — 'Sticker Star' badge earned." },
+  { id:'rising-star',name:'Rising Star',   desc:'Reach global level 5.',                  icon:'i-flame',share:"Hit global level 5 on POPSMART. 'Rising Star' badge unlocked." },
 ];
 var byId = {};
 BADGES.forEach(function(b){ byId[b.id] = b; });
@@ -145,6 +149,16 @@ function checkAll(opts){
     });
   }catch(e){}
   if (Object.keys(skills).length >= 5) grant('polymath');
+
+  // game-layer badges (window.Game may not exist on very old saves)
+  try{
+    if (window.Game){
+      if (Game.comboBest() >= 10) grant('combo-10');
+      if (Game.questsDone() >= 10) grant('quest-hunter');
+      if (Game.stickerCount() >= 6) grant('sticker-star');
+      if (Game.level() >= 5) grant('rising-star');
+    }
+  }catch(e){}
 
   // scholar: every level of one subject finished
   try{
