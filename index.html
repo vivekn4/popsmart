@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#FFE600">
 <meta property="og:type" content="website">
 <meta property="og:title" content="POPSMART — Bite-size learning that adapts to you">
-<meta property="og:description" content="Hyper-personalized micro-learning: bite-size lessons, smart flashcards, and skill checkpoints across 27 subjects.">
+<meta property="og:description" content="Hyper-personalized micro-learning: bite-size lessons, smart flashcards, and skill checkpoints across 35 subjects.">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="POPSMART — Bite-size learning that adapts to you">
 <meta name="twitter:description" content="Bite-size lessons, smart flashcards, and checkpoints that adapt to your focus and habits.">
@@ -109,6 +109,23 @@
   <section class="view" id="view-dashboard" aria-labelledby="dash-title" hidden>
     <h1 id="dash-title">Your <span class="hl">brain</span> today</h1>
     <p class="lede">Small reps. Big brain. Here's where you stand.</p>
+
+    <div class="grid two mt">
+      <div class="card tilt-l pop">
+        <div class="card-title">Level</div>
+        <div id="game-level"></div>
+      </div>
+      <div class="card tilt-r">
+        <div class="card-title">Daily quests <span class="chip yellow">+30 XP each</span></div>
+        <div id="game-quests"></div>
+      </div>
+    </div>
+
+    <div class="card mt">
+      <div class="card-title">Sticker book</div>
+      <p class="lede">Weird achievements, sticky glory.</p>
+      <div id="game-stickers" class="sticker-wall"></div>
+    </div>
 
     <div class="grid two mt">
       <div class="card tilt-l">
@@ -250,6 +267,7 @@
 <script src="data/packs.js"></script>
 <script src="js/sound.js"></script>
 <script src="js/rewards.js"></script>
+<script src="js/game.js"></script>
 <script src="js/views.js"></script>
 </body>
 </html>

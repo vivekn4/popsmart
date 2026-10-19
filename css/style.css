@@ -805,3 +805,49 @@ p{ margin: 0.5em 0; }
   .celebrate-card{ animation: none; }
   .xp-fill{ transition: none; }
 }
+
+/* ---------- Game layer (v1.1): levels, quests, stickers ---------- */
+.g-level-top{ display: flex; align-items: baseline; gap: 0.6rem; }
+.g-level-num{
+  font-size: 2rem; font-weight: 900;
+  background: var(--ink); color: var(--paper);
+  padding: 0.15rem 0.7rem; border-radius: 0.6rem;
+  transform: rotate(-2deg); display: inline-block;
+}
+.g-level-name{ font-weight: 800; font-size: 1.05rem; }
+.g-level-sub{ margin: 0.4rem 0 0; font-size: 0.85rem; opacity: 0.75; }
+.xp-bar{
+  height: 14px; border: var(--border); border-radius: 999px;
+  background: var(--grey); overflow: hidden; margin-top: 0.6rem;
+}
+.xp-bar > i{
+  display: block; height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--yellow), var(--pink));
+  transition: width 0.5s ease;
+}
+.xp-bar.slim{ height: 8px; margin-top: 0.4rem; }
+.quest{
+  border: var(--border); border-radius: 0.8rem;
+  padding: 0.6rem 0.75rem; margin-bottom: 0.6rem;
+  background: var(--paper); box-shadow: var(--shadow-sm);
+}
+.quest:last-child{ margin-bottom: 0; }
+.quest.done{ background: #e8f8e3; }
+.quest-top{ display: flex; justify-content: space-between; align-items: baseline; }
+.quest-name{ font-weight: 800; }
+.quest-prog{ font-size: 0.85rem; font-weight: 700; opacity: 0.7; }
+.quest-desc{ margin: 0.15rem 0 0; font-size: 0.9rem; }
+.quest-tick{ font-size: 0.8rem; font-weight: 800; color: #1e7e34; }
+.sticker-wall{ display: flex; flex-wrap: wrap; gap: 0.7rem; }
+.sticker{
+  --rot: 3deg; --sc: var(--ink);
+  display: inline-flex; flex-direction: column; align-items: center; gap: 0.25rem;
+  background: #fff; border: 3px solid var(--ink); border-radius: 1rem;
+  padding: 0.6rem 0.8rem; transform: rotate(var(--rot));
+  box-shadow: 3px 3px 0 var(--ink);
+  font-size: 0.72rem; font-weight: 800; text-transform: uppercase;
+  transition: transform 0.15s ease;
+}
+.sticker:hover{ transform: rotate(0deg) scale(1.06); }
+.sticker svg{ width: 30px; height: 30px; color: var(--sc); }
+.sticker.locked{ opacity: 0.38; filter: grayscale(1); }

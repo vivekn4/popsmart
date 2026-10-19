@@ -2,7 +2,7 @@
 
 ![POPSMART logo — purple brain with a lightning bolt](assets/logo.png)
 
-**Bite-size learning that adapts to you.** A free, open-source micro-learning companion — 27 subjects, smart flashcards, and an engine that learns how *you* learn. Web + Android.
+**Bite-size learning that adapts to you.** A free, open-source micro-learning companion — 33 subjects, smart flashcards, and an engine that learns how *you* learn. Web + Android.
 
 ✦ VN ✦ — a Vivek Nair original.
 
@@ -11,7 +11,7 @@
 
 ## What it does
 
-- **27 subjects** — coding, Spanish, French, Hindi, physics, chemistry, cooking, music theory, personal finance, first aid, chess, and more. 410 lesson cards, 320 flashcards, 400 quiz questions.
+- **35 subjects** — coding, physics, chemistry, cooking, music theory, personal finance, first aid, chess, and more. 530 lesson cards, 416 flashcards, 520 quiz questions.
 - **Bite-size lessons** — 2-minute cards: read, pro tips, examples, quick checks. Three minutes, one idea, zero fluff.
 - **Smart flashcards** — SM-2 spaced repetition brings cards back right before you forget them.
 - **Skill checkpoints** — quizzes gate each level. Pass at 70%+ to unlock the next.
@@ -24,7 +24,7 @@
 - **Zero accounts, zero servers, zero telemetry.** Everything lives in your browser's local storage. Nothing leaves your device. Ever.
 
 ![Subject browser with search and category filters](assets/screenshot-learn.png)
-*↑ Browse 27 subjects — search live, filter by Coding, Language, Science, Life Skills, or Arts.*
+*↑ Browse 33 subjects — search live, filter by Coding, Language, Science, Life Skills, or Arts.*
 
 ![Learning tracker with trophy wall](assets/screenshot-tracker.png)
 *↑ My Learning: trophy wall, per-subject stats, XP bars.*
